@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Warren's Gatsby Portfolio`,
-    description: `This is a basic Portfolio for web apps, with maybe a little bit of room for blogs.`,
+    description: `This is Warren's basic Portfolio for web apps, with maybe a little bit of room for blogs.`,
     author: `@DaeadalusG`,
   },
   plugins: [
