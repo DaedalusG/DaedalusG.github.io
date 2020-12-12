@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import "./projectCard.css"
 
 const ProjectCard = (props) => {
     const data = useStaticQuery(graphql`
@@ -20,11 +21,7 @@ const ProjectCard = (props) => {
     }
 
     return (
-        <div style={{
-            width: "500px",
-            height: "750px",
-
-        }}>
+        <div className="imageContainer">
             <Img fluid={data.placeholderImage.childImageSharp.fluid} />
         </div>
     )
