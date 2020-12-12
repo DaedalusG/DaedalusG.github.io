@@ -19,7 +19,16 @@ const ProjectCard = (props) => {
         return <div>Picture not found</div>
     }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    return (
+        <div style={{
+            width: "500px",
+            height: "750px",
+
+        }}>
+            <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+        </div>
+    )
+
 }
 
 export default ProjectCard

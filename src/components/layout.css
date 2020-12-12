@@ -119,8 +119,6 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  width: 500px;
-  height: 500px;
 }
 svg:not(:root) {
   overflow: hidden;
