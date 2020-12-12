@@ -1,6 +1,6 @@
 import React from "react"
 
-const projectCard = (props) => {
+const ProjectCard = (props) => {
     return (
         <img src={"../images/headshot.jpg"}></img>
     )

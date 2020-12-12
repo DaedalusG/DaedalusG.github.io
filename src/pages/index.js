@@ -3,11 +3,13 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ProjectCard from "../components/projectCard"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi consumers!</h1>
+    <ProjectCard />
     <p>Welcome to my portfolio page</p>
     <p>My gatsby-cli is messed up. I think its an issue with my nvm prefix</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
