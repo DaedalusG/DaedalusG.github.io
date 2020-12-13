@@ -8,7 +8,7 @@ import ProjectCard from "../components/projectCard"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi consumers!</h1>
+    <h1>Welcome consumers!</h1>
     <ProjectCard style={{ width: `500px` }} />
     <p>Welcome to my portfolio page</p>
     <p>My gatsby-cli is messed up. I think its an issue with my nvm prefix</p>
