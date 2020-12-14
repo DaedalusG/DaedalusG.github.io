@@ -9,13 +9,13 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.15rem`,
     }}
   >
-    <h1 style={{ margin: 0 }}>
+    <h2 style={{ margin: 0 }}>
       <Link
         to="/"
         style={{
           color: `white`,
           textDecoration: `none`,
-          marginRight: `6px`,
+          marginRight: `10px`,
         }}
       >
         Home
@@ -25,22 +25,22 @@ const Header = ({ siteTitle }) => (
         style={{
           color: `white`,
           textDecoration: `none`,
-          marginRight: `6px`,
+          marginRight: `10px`,
         }}
       >
         Projects
       </Link>
       <Link
-        to="/"
+        to="/page-2"
         style={{
           color: `white`,
           textDecoration: `none`,
-          marginRight: `6px`,
+          marginRight: `10px`,
         }}
       >
         About
       </Link>
-    </h1>
+    </h2>
   </header>
 )
 
