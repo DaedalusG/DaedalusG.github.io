@@ -11,7 +11,7 @@ const IndexPage = () => (
     <h1>Welcome consumers!</h1>
     <Headshot style={{ width: `500px` }} />
     <p>Welcome to my portfolio page</p>
-    <p>My gatsby-cli is messed up. I think its an issue with my nvm prefix</p>
+    <p>Here you can find out a little bit about me, and see some of the projects I've worked on.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
     <Link to="/about/">About</Link> <br />
