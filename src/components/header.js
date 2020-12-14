@@ -17,7 +17,25 @@ const Header = ({ siteTitle }) => (
           textDecoration: `none`,
         }}
       >
-        {siteTitle}
+        Home
+      </Link>
+      <Link
+        to="/"
+        style={{
+          color: `white`,
+          textDecoration: `none`,
+        }}
+      >
+        Projects
+      </Link>
+      <Link
+        to="/"
+        style={{
+          color: `white`,
+          textDecoration: `none`,
+        }}
+      >
+        About
       </Link>
     </h1>
   </header>
