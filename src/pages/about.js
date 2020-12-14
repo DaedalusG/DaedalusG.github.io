@@ -7,12 +7,12 @@ const About = () => (
   <Layout>
     <SEO title="About" />
     <h1>This is the about page.</h1>
-    <h3>Lifebox</h3>
-    <p>The section on LifeBox with links and gif</p>
-    <h3>Chatter</h3>
-    <p>The section on Chatter with links and gif</p>
-    <h3>NoiseWave</h3>
-    <p>The section on NoiseWave with links and gif</p>
+    <h3>College</h3>
+    <p>Little story about my interests</p>
+    <h3>Automotive</h3>
+    <p>Little story about working in automotive</p>
+    <h3>Developer</h3>
+    <p>Little bit about AppAcademy and graduation</p>
   </Layout>
 )
 
