@@ -14,7 +14,7 @@ const IndexPage = () => (
     <p>My gatsby-cli is messed up. I think its an issue with my nvm prefix</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
-    <Link to="/page-2/">About</Link> <br />
+    <Link to="/about/">About</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
