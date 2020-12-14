@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         style={{
           color: `white`,
           textDecoration: `none`,
+          marginRight: `6px`,
         }}
       >
         Home
@@ -24,6 +25,7 @@ const Header = ({ siteTitle }) => (
         style={{
           color: `white`,
           textDecoration: `none`,
+          marginRight: `6px`,
         }}
       >
         Projects
@@ -33,6 +35,7 @@ const Header = ({ siteTitle }) => (
         style={{
           color: `white`,
           textDecoration: `none`,
+          marginRight: `6px`,
         }}
       >
         About
