@@ -42,10 +42,10 @@ const Projects = () => {
                 const imageData = project.image.childImageSharp.fluid;
                 return (
                     <ProjectPreview
-                        title={ }
-                        description={ }
-                        imageData={ }
-                        slug={ }
+                        title={title}
+                        description={description}
+                        imageData={imageData}
+                        slug={slug}
                     />
 
                 )
