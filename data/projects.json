@@ -1,23 +1,23 @@
 [
     {
-        "title": "example",
-        "slug": "",
-        "url": "",
-        "image": "",
-        "description": ""
+        "title": "LifeBox",
+        "slug": "lifebox",
+        "url": "https://life-box.herokuapp.com/",
+        "image": "./images/LifeBox.png",
+        "description": "A social network app to explore complexity through Conway's Game of Life"
     },
     {
-        "title": "example",
-        "slug": "",
-        "url": "",
-        "image": "",
-        "description": ""
+        "title": "Chatter",
+        "slug": "chatter",
+        "url": "https://chatter-clone.herokuapp.com/",
+        "image": "./images/Chatter.png",
+        "description": "A twitter like social network with basic CRUD operations"
     },
     {
-        "title": "example",
-        "slug": "",
-        "url": "",
-        "image": "",
-        "description": ""
+        "title": "NoiseWave",
+        "slug": "noisewave",
+        "url": "https://noisewave.herokuapp.com/",
+        "image": "./images/NoiseWave.png",
+        "description": "A soundcloud like music platform, where users may perform basic crud operations"
     }
 ]
