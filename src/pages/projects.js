@@ -7,8 +7,28 @@ import ProjectPreview from "../components/project-preview"
 const Projects = () => {
 
     const data = useStaticQuery(graphql`
-        
+        {
+            allProjectsJson {
+                edges {
+                    node {
+                        title
+                        slug
+                        url
+                        description
+                        image {
+                            childImageSharp {
+                                fluid {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     `);
+
+    const projects = data.allProjectsJson.edges;
 
     return (
         <Layout>
