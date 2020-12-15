@@ -10,6 +10,12 @@ const Projects = () => {
             <SEO title="Projects" />
             <h1>This is the projects page</h1>
             <h3>Lifebox</h3>
+            <ProjectPreview
+                title={ }
+                description={ }
+                imageData={ }
+                slug={ }
+            />
             <p>The section on LifeBox with links and gif</p>
             <h3>Chatter</h3>
             <p>The section on Chatter with links and gif</p>
