@@ -5,6 +5,11 @@ import SEO from "../components/seo"
 import ProjectPreview from "../components/project-preview"
 
 const Projects = () => {
+
+    const data = useStaticQuery(graphql`
+        
+    `);
+
     return (
         <Layout>
             <SEO title="Projects" />
