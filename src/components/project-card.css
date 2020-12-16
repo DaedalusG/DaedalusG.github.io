@@ -8,6 +8,10 @@
   margin: 20px 0;
 }
 
+.project-card > * {
+    flex-grow: 1;
+}
+
 .project-card:hover {
   transition: background-color .25s;
   background-color: lightgrey;
@@ -20,9 +24,9 @@
   padding: 15px 0px 25px 15px;
 }
 
-.project-card > img {
+/* .project-card > Image {
   object-fit: contain;
-}
+} */
 
 @media screen and (max-width: 1000px) {
   .project-card {
