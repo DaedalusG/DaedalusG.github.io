@@ -1,5 +1,6 @@
 import { Link, useStaticQuery } from "gatsby"
 import React from "react"
+import "./header.module.css"
 
 const Header = () => {
   return (
