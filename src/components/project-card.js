@@ -4,7 +4,7 @@ import Image from 'gatsby-image';
 
 // import './project-card.css';
 
-const ProjectCard = ({ slug, title, description, imageData }) => {
+const ProjectCard = ({ slug, title, description, imageData, url }) => {
     return (
         <div className="project-card">
             <Link to={`/${slug}/`}>
