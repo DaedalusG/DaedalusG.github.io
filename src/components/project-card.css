@@ -10,7 +10,7 @@
 
 .project-card:hover {
   transition: background-color .25s;
-  background-color: #ff81ab25;
+  background-color: lightgrey;
 }
 
 .project-card > div {

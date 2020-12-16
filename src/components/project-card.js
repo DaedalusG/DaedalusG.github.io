@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'gatsby-image';
 
-// import './project-card.css';
+import './project-card.css';
 
-const ProjectCard = ({ slug, title, description, imageData, url }) => {
+const ProjectCard = ({ title, description, imageData, url }) => {
     return (
         <div className="project-card">
             <a href={`${url}`}>

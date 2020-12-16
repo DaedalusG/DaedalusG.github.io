@@ -37,7 +37,7 @@ const Projects = () => {
             {projects.map(({ node: project }) => {
                 const title = project.title;
                 const description = project.description;
-                const slug = project.slug;
+                // const slug = project.slug;
                 const url = project.url;
                 const imageData = project.image.childImageSharp.fluid;
                 return (
@@ -45,7 +45,7 @@ const Projects = () => {
                         title={title}
                         description={description}
                         imageData={imageData}
-                        slug={slug}
+                        // slug={slug}
                         url={url}
                     />
 
