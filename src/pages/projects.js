@@ -33,7 +33,6 @@ const Projects = () => {
     return (
         <Layout>
             <SEO title="Projects" />
-            <h1>This is the projects page</h1>
             {projects.map(({ node: project }) => {
                 const title = project.title;
                 const description = project.description;
