@@ -1,0 +1,38 @@
+.project-card {
+  padding: 20px;
+  display: flex;
+  font-size: 14px;
+  height: 250px;
+  background-color: transparent;
+  transition: background-color .25s;
+  margin: 20px 0;
+}
+
+.project-card:hover {
+  transition: background-color .25s;
+  background-color: #ff81ab25;
+}
+
+.project-card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0px 25px 15px;
+}
+
+.project-card > img {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-card {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .project-card > div {
+    padding: 10px;
+  }
+
+}
