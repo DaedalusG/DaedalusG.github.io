@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image'
 
-const ProjectPreview = ({ slug, title, description, imageData }) => {
+const ProjectCard = ({ slug, title, description, imageData }) => {
     return (
         <div className="project-preview">
             <Link to={`/${slug}/`}>
@@ -17,4 +17,4 @@ const ProjectPreview = ({ slug, title, description, imageData }) => {
     )
 }
 
-export default ProjectPreview
+export default ProjectCard

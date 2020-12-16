@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ProjectPreview from "../components/project-preview"
+import ProjectCard from "../components/project-card"
 
 const Projects = () => {
 
@@ -40,7 +40,7 @@ const Projects = () => {
                 const slug = project.slug;
                 const imageData = project.image.childImageSharp.fluid;
                 return (
-                    <ProjectPreview
+                    <ProjectCard
                         title={title}
                         description={description}
                         imageData={imageData}
