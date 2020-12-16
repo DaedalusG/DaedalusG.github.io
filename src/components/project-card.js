@@ -7,9 +7,9 @@ import Image from 'gatsby-image';
 const ProjectCard = ({ slug, title, description, imageData, url }) => {
     return (
         <div className="project-card">
-            <Link to={`/${slug}/`}>
+            <a href={`${url}`}>
                 <Image fluid={imageData} alt={title} />
-            </Link>
+            </a>
             <h2>
                 <Link to={`/${slug}/`}>{title}</Link>
             </h2>
