@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
 
+
+
 const Header = () => (
   <header
     style={{
@@ -17,7 +19,7 @@ const Header = () => (
           marginRight: `10px`,
         }}
       >
-        Home
+        {"Home"}
       </Link>
       <Link
         to="/projects"
