@@ -1,4 +1,4 @@
-import { Link, useStaticQuery } from "gatsby"
+import { Link } from "gatsby"
 import React from "react"
 import "./header.module.css"
 
