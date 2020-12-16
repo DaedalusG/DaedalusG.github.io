@@ -20,7 +20,7 @@
   padding: 15px 0px 25px 15px;
 }
 
-.project-card > Image {
+.project-card > img {
   object-fit: contain;
 }
 
