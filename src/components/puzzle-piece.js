@@ -14,9 +14,9 @@ import Img from "gatsby-image"
  */
 
 const PuzzlePiece = () => {
-    const data = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "puzzle-32x32.png" }) {
+      placeholderImage: file(relativePath: { eq: "apple-touch-icon.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -26,11 +26,11 @@ const PuzzlePiece = () => {
     }
   `)
 
-    if (!data?.placeholderImage?.childImageSharp?.fluid) {
-        return <div>Picture not found</div>
-    }
+  if (!data?.placeholderImage?.childImageSharp?.fluid) {
+    return <div>Picture not found</div>
+  }
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default PuzzlePiece

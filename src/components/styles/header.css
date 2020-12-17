@@ -38,3 +38,8 @@ divider {
 .side-border {
     border-right: 3px dashed #bbb;;
 }
+
+.header-puzzle-piece {
+    width: 1.75rem;
+    height: 1.75rem;
+}
