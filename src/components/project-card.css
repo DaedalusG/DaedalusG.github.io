@@ -24,10 +24,6 @@
   padding: 15px 0px 25px 15px;
 }
 
-/* .project-card > Image {
-  object-fit: contain;
-} */
-
 @media screen and (max-width: 1000px) {
   .project-card {
     flex-direction: column;

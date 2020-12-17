@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import "./header.module.css"
+import "./header.css"
 
 const Header = () => {
   return (
@@ -8,6 +8,7 @@ const Header = () => {
       style={{
         background: `darkgreen`,
         marginBottom: `1.15rem`,
+        font: ``
       }}
     >
       <h2 style={{ margin: 0 }}>
