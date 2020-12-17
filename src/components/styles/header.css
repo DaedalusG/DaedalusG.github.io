@@ -28,3 +28,7 @@ h2 {
     text-decoration: none;
     padding: 5px;
 }
+
+.side-border {
+    border-right: 3px dashed #bbb;;
+}

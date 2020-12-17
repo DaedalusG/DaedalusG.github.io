@@ -6,13 +6,11 @@ import "./styles/header.css"
 const Header = () => {
   return (
     <header>
-      <div>
-        <h2>
-          <Link className="link" to="/">
-            Home
-          </Link>
-        </h2>
-      </div>
+      <h2>
+        <Link className="link" to="/">
+          Home
+        </Link>
+      </h2>
       <h2>
         <Link className="link" to="/projects">
           Projects
