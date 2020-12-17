@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'gatsby-image';
 
-import './project-card.css';
+import './styles/project-card.css';
 
 const ProjectCard = ({ title, description, imageData, url }) => {
     return (

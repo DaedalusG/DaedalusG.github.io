@@ -1,12 +1,12 @@
 import { Link } from "gatsby"
 import React from "react"
-import "./header.css"
+import "./styles/header.css"
 
 const Header = () => {
   return (
     <header
       style={{
-        background: `darkgreen`,
+        // background: `darkgreen`,
         marginBottom: `1.15rem`,
         font: ``
       }}
@@ -15,7 +15,7 @@ const Header = () => {
         <Link
           to="/"
           style={{
-            color: `white`,
+            // color: `white`,
             textDecoration: `none`,
             marginRight: `10px`,
           }}
@@ -25,7 +25,7 @@ const Header = () => {
         <Link
           to="/projects"
           style={{
-            color: `white`,
+            // color: `white`,
             textDecoration: `none`,
             marginRight: `10px`,
           }}
