@@ -1,14 +1,15 @@
 header {
-    background: darkgreen;
+    background: white;
     margin-bottom: 1.15rem;
+    border-bottom: 2px solid black;
 }
 
 h2 {
-    margin: 0;
+    margin: 0px;
 }
 
 .link {
-    color: white;
+    color: darkgreen;
     text-decoration: none;
-    margin-right: 10px;
+    margin-left: 10px;
 }
