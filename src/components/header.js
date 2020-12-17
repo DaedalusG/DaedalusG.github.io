@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
 import PuzzlePiece from "./puzzle-piece"
+import LinkedIn from "./linkedin"
+import GitHub from "./github"
 
 import "./styles/header.css"
 
@@ -8,7 +10,7 @@ const Header = () => {
   return (
     <header>
       <Link className="link" to="/">
-        <div className={"header-puzzle-piece"}>
+        <div className={"header-icon"}>
           <PuzzlePiece />
         </div>
       </Link>
@@ -22,6 +24,12 @@ const Header = () => {
           About
         </Link>
       </h2>
+      <div className="header-icon">
+        <LinkedIn />
+      </div>
+      <div className="header-icon">
+        <GitHub />
+      </div>
     </header>
   )
 }

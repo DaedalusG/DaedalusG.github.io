@@ -37,7 +37,8 @@ divider {
     border-right: 3px dashed #bbb;;
 }
 
-.header-puzzle-piece {
+.header-icon {
     width: 1.70rem;
     height: 1.70rem;
+    margin: 0.5rem;
 }
