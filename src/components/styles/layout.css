@@ -25,12 +25,15 @@ details,
 figcaption,
 figure,
 footer,
-main,
 menu,
 nav,
 section,
 summary {
   display: block;
+}
+main {
+  display: block;
+  margin-top: 3rem;
 }
 audio,
 canvas,

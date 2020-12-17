@@ -1,4 +1,10 @@
 header {
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    z-index: 1000;
+
     background: white;
     margin-bottom: 1.15rem;
     border-bottom: 2px solid black;
@@ -10,6 +16,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    align-content: space-between;
 }
 
 h2 {
