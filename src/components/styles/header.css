@@ -1,14 +1,14 @@
 header {
-    background-color: 'darkgreen';
-    margin-bottom: '1.15rem';
+    background: darkgreen;
+    margin-bottom: 1.15rem;
 }
 
 h2 {
     margin: 0;
 }
 
-Link {
-    color: 'white';
-    text-decoration: 'none';
-    margin-right: '10px';
+.link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
 }

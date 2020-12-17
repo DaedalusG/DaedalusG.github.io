@@ -1,47 +1,21 @@
 import { Link } from "gatsby"
 import React from "react"
+
 import "./styles/header.css"
 
 const Header = () => {
   return (
-    <header
-      style={{
-        // background: `darkgreen`,
-        marginBottom: `1.15rem`,
-        font: ``
-      }}
-    >
-      <h2 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            // color: `white`,
-            textDecoration: `none`,
-            marginRight: `10px`,
-          }}
-        >
+    <header>
+      <h2>
+        <Link className="link" to="/">
           Home
         </Link>
-        <Link
-          to="/projects"
-          style={{
-            // color: `white`,
-            textDecoration: `none`,
-            marginRight: `10px`,
-          }}
-        >
+        <Link className="link" to="/projects">
           Projects
-      </Link>
-        <Link
-          to="/about"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            marginRight: `10px`,
-          }}
-        >
+        </Link>
+        <Link className="link" to="/about">
           About
-      </Link>
+        </Link>
       </h2>
     </header>
   )
