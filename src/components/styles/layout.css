@@ -25,7 +25,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
@@ -258,7 +257,6 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  /* margin-bottom: 1.45rem; */
   color: inherit;
   font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

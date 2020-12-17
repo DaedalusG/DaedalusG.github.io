@@ -2,6 +2,14 @@ header {
     background: white;
     margin-bottom: 1.15rem;
     border-bottom: 2px solid black;
+    padding: 0px 60px;
+    height: 2.25rem;
+    text-align: right;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 h2 {
