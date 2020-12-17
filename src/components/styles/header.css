@@ -26,5 +26,5 @@ h2 {
 .link {
     color: darkgreen;
     text-decoration: none;
-    margin-left: 10px;
+    padding: 5px;
 }
