@@ -14,9 +14,8 @@ header {
 
     display:flex;
     flex-direction: row;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
-    align-content: space-between;
 }
 
 h2 {
@@ -26,7 +25,6 @@ h2 {
 divider {
     border: 0.5px solid rgb(221, 221, 221);
     margin-top: 5px;
-
 }
 
 .link {
@@ -40,6 +38,6 @@ divider {
 }
 
 .header-puzzle-piece {
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 1.70rem;
+    height: 1.70rem;
 }

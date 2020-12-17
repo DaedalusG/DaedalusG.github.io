@@ -7,15 +7,13 @@ import "./styles/header.css"
 const Header = () => {
   return (
     <header>
+      <Link className="link" to="/">
+        <div className={"header-puzzle-piece"}>
+          <PuzzlePiece />
+        </div>
+      </Link>
       <h2>
-        <Link className="link" to="/">
-          <div className={"header-puzzle-piece"}>
-            <PuzzlePiece />
-          </div>
-        </Link>
         <divider />
-      </h2>
-      <h2>
         <Link className="link" to="/projects">
           Projects
         </Link>
