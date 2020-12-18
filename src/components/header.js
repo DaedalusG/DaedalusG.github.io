@@ -42,7 +42,7 @@ const Header = () => {
             target={"_blank"}
             rel={"noopener noreferrer"}
           >
-            <LinkedIn />
+            {/* <LinkedIn /> */}
           </a>
         </div>
         <div className="header-icon">
@@ -51,7 +51,7 @@ const Header = () => {
             target={"_blank"}
             rel={"noopener noreferrer"}
           >
-            <GitHub />
+            {/* <GitHub /> */}
           </a>
         </div>
       </div>
