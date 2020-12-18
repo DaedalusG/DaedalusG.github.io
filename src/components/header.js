@@ -19,11 +19,13 @@ const Header = () => {
           <divider />
           <Link className="link" to="/projects">
             Projects
-        </Link>
+          </Link>
           <divider />
           <Link className="link" to="/about">
             About
-        </Link>
+          </Link>
+          <divider />
+          <a className="link">Resume</a>
         </h2>
       </div>
       <div className="header-container">
