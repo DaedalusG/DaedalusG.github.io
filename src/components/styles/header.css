@@ -10,13 +10,13 @@ header {
     border-bottom: 2px solid black;
     padding: 0px 60px;
     height: 2.25rem;
-    text-align: right;
 
     display:flex;
+    flex-basis: 2;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    align-content: space-between;
+    justify-items: space-between;
 }
 
 h2 {
