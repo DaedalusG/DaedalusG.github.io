@@ -13,7 +13,7 @@ const ProjectCard = ({ title, description, imageData, live, github }) => {
                     <Image fluid={imageData} alt={title} />
                 </a>
             </div>
-            <div>
+            <div className="info">
                 <h2>{title}</h2>
                 <p>{description}</p>
                 <a
