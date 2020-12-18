@@ -45,7 +45,6 @@ const Projects = () => {
                         title={title}
                         description={description}
                         imageData={imageData}
-                        // slug={slug}
                         live={live}
                         github={github}
                     />

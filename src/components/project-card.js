@@ -3,20 +3,20 @@ import Image from 'gatsby-image';
 
 import './styles/project-card.css';
 
-const ProjectCard = ({ title, description, imageData, url }) => {
+const ProjectCard = ({ title, description, imageData, live, github }) => {
     return (
         <div className="project-card">
             <div style={{
                 width: `360px`
             }}>
-                <a href={`${url}`}>
+                <a href={`${live}`}>
                     <Image fluid={imageData} alt={title} />
                 </a>
             </div>
             <div>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <a href={`${url}`} style={{ textDecoration: `none`, color: `darkgreen` }}>GitHub Repo &rarr;</a>
+                <a href={`${github}`} style={{ textDecoration: `none`, color: `darkgreen` }}>GitHub Repo &rarr;</a>
             </div>
         </div>
     )
