@@ -25,10 +25,22 @@ const Header = () => {
         </Link>
       </h2>
       <div className="header-icon">
-        <LinkedIn />
+        <a
+          href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+        >
+          <LinkedIn />
+        </a>
       </div>
       <div className="header-icon">
-        <GitHub />
+        <a
+          href={"https://github.com/DaedalusG"}
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+        >
+          <GitHub />
+        </a>
       </div>
     </header>
   )
