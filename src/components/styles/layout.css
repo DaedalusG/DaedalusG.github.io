@@ -83,7 +83,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Ubuntu-Bold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -261,7 +261,7 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Ubuntu-Bold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
