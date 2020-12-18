@@ -13,7 +13,8 @@ const Projects = () => {
                     node {
                         title
                         slug
-                        url
+                        live
+                        github
                         description
                         image {
                             childImageSharp {
@@ -36,8 +37,8 @@ const Projects = () => {
             {projects.map(({ node: project }) => {
                 const title = project.title;
                 const description = project.description;
-                // const slug = project.slug;
-                const url = project.url;
+                const live = project.live;
+                const github = project.github;
                 const imageData = project.image.childImageSharp.fluid;
                 return (
                     <ProjectCard
@@ -45,7 +46,8 @@ const Projects = () => {
                         description={description}
                         imageData={imageData}
                         // slug={slug}
-                        url={url}
+                        live={live}
+                        github={github}
                     />
 
                 )

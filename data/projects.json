@@ -2,21 +2,24 @@
     {
         "title": "LifeBox",
         "slug": "lifebox",
-        "url": "https://life-box.herokuapp.com/",
+        "live": "https://life-box.herokuapp.com/",
+        "github": "https://github.com/DaedalusG/LifeBox",
         "image": "./images/LifeBox.png",
         "description": "A social network app to explore complexity through Conway's Game of Life"
     },
     {
         "title": "Chatter",
         "slug": "chatter",
-        "url": "https://chatter-clone.herokuapp.com/",
+        "live": "https://chatter-clone.herokuapp.com/",
+        "github": "https://github.com/DaedalusG/Chatter",
         "image": "./images/Chatter.png",
         "description": "A twitter like social network with basic CRUD operations"
     },
     {
         "title": "NoiseWave",
         "slug": "noisewave",
-        "url": "https://noisewave.herokuapp.com/",
+        "live": "https://noisewave.herokuapp.com/",
+        "github": "https://github.com/DaedalusG/NoiseWave",
         "image": "./images/NoiseWave.png",
         "description": "A soundcloud like music platform, where users may perform basic crud operations"
     }
