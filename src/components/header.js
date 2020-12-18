@@ -25,7 +25,14 @@ const Header = () => {
             About
           </Link>
           <divider />
-          <a className="link">Resume</a>
+          <a
+            className="link"
+            href={"https://docs.google.com/document/d/1BkSH78dngxDJ6Orl9NjTnjH6z9l_GLE770Tv4IXvHdA/edit?usp=sharing"}
+            target={"_blank"}
+            rel={"noopener noreferrer"}
+          >
+            Resume
+          </a>
         </h2>
       </div>
       <div className="header-container">
