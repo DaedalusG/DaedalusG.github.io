@@ -38,6 +38,12 @@ divider {
     border-right: 3px dashed #bbb;;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .header-icon {
     width: 1.70rem;
     height: 1.70rem;
