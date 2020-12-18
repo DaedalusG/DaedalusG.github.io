@@ -16,7 +16,7 @@ const ProjectCard = ({ title, description, imageData, url }) => {
             <div>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <a href={`${url}`}>View this project &rarr;</a>
+                <a href={`${url}`} style={{ textDecoration: `none`, color: `darkgreen` }}>GitHub Repo &rarr;</a>
             </div>
         </div>
     )
