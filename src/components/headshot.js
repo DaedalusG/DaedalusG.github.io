@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import "./styles/headshot.css"
 
-const Headshot = (props) => {
+const Headshot = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "headshot.jpg" }) {
