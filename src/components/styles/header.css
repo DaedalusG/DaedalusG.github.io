@@ -12,11 +12,9 @@ header {
     height: 2.25rem;
 
     display:flex;
-    flex-basis: 2;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
-    justify-items: space-between;
+    justify-content: space-between;
 }
 
 h2 {
