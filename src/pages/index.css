@@ -1,6 +1,9 @@
 article {
     display: flex;
     flex-flow: row;
+
+    /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
+    background-size: cover; */
 }
 
 a {
