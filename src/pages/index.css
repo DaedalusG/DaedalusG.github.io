@@ -2,3 +2,14 @@ article {
     display: flex;
     flex-flow: row;
 }
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+    font-family: "Ubuntu-Bold";
+}
+
+.left {
+    margin-right: 2rem;
+}
+

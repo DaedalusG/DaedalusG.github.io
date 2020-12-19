@@ -17,10 +17,12 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="right">
-        <h1>Welcome consumers!</h1>
-        <p>Welcome to my portfolio page</p>
-        <p>Here you can find out a little bit about me, and see some of the projects I've worked on.</p>
-        <Link to="/about/">About</Link> <br />
+        <h1>Welcome to my portfolio!</h1>
+        <p>Hey my names Warren, I'm a software developer.</p>
+        <p>This page is intended as a way to get to know me a little better.</p>
+        <p>Here you can access links to my projects, and learn a little bit about my interests and background.</p>
+        <p>This site was developed with Gatsby</p>
+        <p>Get in touch with me on <a href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}>LinkedIn</a></p>
       </div>
     </article>
   </Layout>
