@@ -36,6 +36,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-anchor-links`
+    `gatsby-plugin-anchor-links`,
   ],
 }
