@@ -51,7 +51,7 @@ const Header = () => {
             target={"_blank"}
             rel={"noopener noreferrer"}
           >
-            {/* <GitHub /> */}
+            <GitHub />
           </a>
         </div>
       </div>
