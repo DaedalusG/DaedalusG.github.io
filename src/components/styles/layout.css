@@ -6,7 +6,12 @@ html {
   overflow-y: scroll;
 }
 body {
+  background-image: url(../../images/DarkSun.gif);
+  background-size: cover;
+  height: 100vh;
+  padding:0;
   margin: 0;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
