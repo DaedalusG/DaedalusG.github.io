@@ -1,8 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
 import PuzzlePiece from "./puzzle-piece"
-import LinkedIn from "./linkedin"
-import GitHub from "./github"
+import LinkedIn from "./LinkedIn"
+import GitHub from "./GitHub"
 
 import "./styles/header.css"
 
