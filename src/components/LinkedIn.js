@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const LinkedIn = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "linkedin.png" }) {
+      placeholderImage: file(relativePath: { eq: "LinkedIn.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
