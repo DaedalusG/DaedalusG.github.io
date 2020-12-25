@@ -37,6 +37,7 @@ const Projects = () => {
             {projects.map(({ node: project }) => {
                 const title = project.title;
                 const description = project.description;
+                const technologies = project.technologies;
                 const live = project.live;
                 const github = project.github;
                 const imageData = project.image.childImageSharp.fluid;
@@ -44,6 +45,7 @@ const Projects = () => {
                     <ProjectCard
                         title={title}
                         description={description}
+                        technologies={technologies}
                         imageData={imageData}
                         live={live}
                         github={github}

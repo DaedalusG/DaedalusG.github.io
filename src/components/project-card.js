@@ -3,7 +3,7 @@ import Image from 'gatsby-image';
 
 import './styles/project-card.css';
 
-const ProjectCard = ({ title, description, imageData, live, github }) => {
+const ProjectCard = ({ title, description, technologies, imageData, live, github }) => {
     return (
         <div className="project-card">
             <div style={{
@@ -16,6 +16,11 @@ const ProjectCard = ({ title, description, imageData, live, github }) => {
             <div className="info">
                 <h2>{title}</h2>
                 <p>{description}</p>
+                {/* <p>{technologies.map(technology => {
+                    return (
+                        <h3>{technology}</h3>
+                    )
+                })}</p> */}
                 <div>
                     <a
                         href={`${github}`}

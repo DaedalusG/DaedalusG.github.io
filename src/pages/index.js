@@ -59,11 +59,13 @@ const IndexPage = () => {
         const description = project.description;
         const live = project.live;
         const github = project.github;
+        const technologies = project.technologies
         const imageData = project.image.childImageSharp.fluid;
         return (
           <ProjectCard
             title={title}
             description={description}
+            technologies={technologies}
             imageData={imageData}
             live={live}
             github={github}
