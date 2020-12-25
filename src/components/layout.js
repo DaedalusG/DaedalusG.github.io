@@ -8,13 +8,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className='layout-container'
-        style={{
-          margin: `0 auto`,
-          maxWidth: 900,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className='layout-container'>
         <main>{children}</main>
       </div>
     </>

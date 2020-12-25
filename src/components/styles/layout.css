@@ -627,5 +627,7 @@ pre tt:after {
 	src: url(fonts/Ubuntu-Medium.ttf) format("truetype");
 }
 .layout-container {
-
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 1.0875rem 1.45rem;
 }
