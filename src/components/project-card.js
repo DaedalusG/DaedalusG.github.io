@@ -16,14 +16,24 @@ const ProjectCard = ({ title, description, imageData, live, github }) => {
             <div className="info">
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <a
-                    href={`${github}`}
-                    style={{ textDecoration: `none`, color: `darkgreen` }}
-                    target={"_blank"}
-                    rel={"noopener noreferrer"}
-                >
-                    GitHub Repo &rarr;
-                </a>
+                <div>
+                    <a
+                        href={`${github}`}
+                        style={{ textDecoration: `none`, color: `darkgreen`, marginRight: `16px` }}
+                        target={"_blank"}
+                        rel={"noopener noreferrer"}
+                    >
+                        GitHub Repo &rarr;
+                    </a>
+                    <a
+                        href={`${live}`}
+                        style={{ textDecoration: `none`, color: `darkgreen`, marginRight: `16px` }}
+                        target={"_blank"}
+                        rel={"noopener noreferrer"}
+                    >
+                        Live Site &rarr;
+                    </a>
+                </div>
             </div>
         </div>
     )

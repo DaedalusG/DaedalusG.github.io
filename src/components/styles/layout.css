@@ -6,9 +6,9 @@ html {
   overflow-y: scroll;
 }
 body {
-  background-image: url(../../images/CodeWall.gif);
+  /* background-image: url(../../images/CodeWall.gif);
   background-size: 50vw;
-  height: 100vh;
+  height: 100vh; */
   padding:0;
   margin: 0;
 
@@ -625,4 +625,7 @@ pre tt:after {
 @font-face {
 	font-family: "Ubuntu-Medium";
 	src: url(fonts/Ubuntu-Medium.ttf) format("truetype");
+}
+.layout-container {
+
 }
