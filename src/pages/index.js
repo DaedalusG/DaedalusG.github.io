@@ -20,6 +20,7 @@ const IndexPage = () => {
                         live
                         github
                         description
+                        technologies
                         image {
                             childImageSharp {
                                 fluid {

@@ -16,9 +16,9 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
             <div className="info">
                 <h2>{title}</h2>
                 <p>{description}</p>
-                {/* {technologies.map(({ node: technology }) => {
+                {/* {technologies.map((technology) => {
                     return (
-                        <h3>{technology}</h3>
+                        <li>{technology}</li>
                     )
                 })} */}
                 <div>
