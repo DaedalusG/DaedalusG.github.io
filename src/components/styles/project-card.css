@@ -1,7 +1,7 @@
 .project-card {
   padding: 20px;
   display: flex;
-  font-size: 14px;
+  font-size: 0.9rem;
   height: 250px;
   background-color: transparent;
   transition: background-color .25s;
