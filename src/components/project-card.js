@@ -16,11 +16,11 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
             <div className="info">
                 <h2>{title}</h2>
                 <p>{description}</p>
-                {/* <p>{technologies.map(technology => {
+                {/* {technologies.map(({ node: technology }) => {
                     return (
                         <h3>{technology}</h3>
                     )
-                })}</p> */}
+                })} */}
                 <div>
                     <a
                         href={`${github}`}

@@ -16,6 +16,7 @@ const Projects = () => {
                         live
                         github
                         description
+                        technologies
                         image {
                             childImageSharp {
                                 fluid {
