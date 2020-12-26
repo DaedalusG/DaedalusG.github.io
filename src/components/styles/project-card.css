@@ -17,18 +17,26 @@
 .image-container {
   width: 21rem;
   height: 13rem;
+  align-items: center;
 }
 
 .project-card > div {
+  padding: 10px;
+}
+/* .project-card > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 15px 0px 25px 15px;
-}
+} */
 
 .info {
   width: 25rem;
   height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0px 25px 15px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -38,7 +46,4 @@
     padding: 10px;
   }
 
-  .project-card > div {
-    padding: 10px;
-  }
 }

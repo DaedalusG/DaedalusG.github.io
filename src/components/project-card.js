@@ -35,13 +35,13 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                     </div>
                 </div>
             </div>
-            <div>
+            {/* <div>
                 {technologies.map((technology) => {
                     return (
                         <li>{technology}</li>
                     )
                 })}
-            </div>
+            </div> */}
         </>
     )
 }
