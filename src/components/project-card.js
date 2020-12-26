@@ -6,9 +6,7 @@ import './styles/project-card.css';
 const ProjectCard = ({ title, description, technologies, imageData, live, github }) => {
     return (
         <div className="project-card">
-            <div style={{
-                width: `360px`
-            }}>
+            <div className="image-container">
                 <a href={`${live}`}>
                     <Image fluid={imageData} alt={title} />
                 </a>

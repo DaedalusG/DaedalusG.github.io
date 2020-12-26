@@ -1,4 +1,5 @@
 .project-card {
+  /* width: 360px; */
   padding: 20px;
   display: flex;
   font-size: 0.9rem;
@@ -11,6 +12,10 @@
 .project-card:hover {
   transition: background-color .25s;
   background-color: rgb(237, 227, 227);
+}
+
+.image-container {
+  width: 400px;
 }
 
 .project-card > div {
