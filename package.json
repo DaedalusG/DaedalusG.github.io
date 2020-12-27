@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "gatsby starter based portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Warren Gifford <warrenbruceg@gmail.com>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-cli": "^2.15.0",
