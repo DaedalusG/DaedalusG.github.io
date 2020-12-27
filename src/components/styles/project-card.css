@@ -1,4 +1,4 @@
-.project-card {
+projectcard {
   /* width: 360px; */
   padding: 20px;
   display: flex;
@@ -9,7 +9,7 @@
   margin: 20px 0;
 }
 
-.project-card:hover {
+projectcard:hover {
   transition: background-color .25s;
   background-color: rgb(237, 227, 227);
 }
@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.project-card > div {
+projectcard > div {
   padding: 10px;
 }
 /* .project-card > div {
