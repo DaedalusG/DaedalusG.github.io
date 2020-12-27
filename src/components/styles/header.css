@@ -1,0 +1,49 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    z-index: 1000;
+
+    background: white;
+    margin-bottom: 1.15rem;
+    border-bottom: 2px solid black;
+    padding: 0px 60px;
+    height: 2.25rem;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0px;
+}
+
+divider {
+    border: 0.5px solid rgb(221, 221, 221);
+    margin-top: 5px;
+}
+
+.link {
+    color: darkgreen;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.side-border {
+    border-right: 3px dashed #bbb;;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-icon {
+    width: 1.70rem;
+    height: 1.70rem;
+    margin: 0.5rem;
+}
