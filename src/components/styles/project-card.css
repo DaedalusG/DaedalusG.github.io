@@ -15,7 +15,7 @@
 }
 
 .image-container {
-  width: 21rem;
+  width: 64rem;
   height: 13rem;
   align-items: center;
 }
@@ -31,7 +31,7 @@
 } */
 
 .info {
-  width: 25rem;
+  width: inherit;
   height: 12rem;
   display: flex;
   flex-direction: column;
