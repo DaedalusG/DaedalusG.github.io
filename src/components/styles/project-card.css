@@ -39,6 +39,12 @@ projectcard > div {
   padding: 15px 0px 25px 15px;
 }
 
+.info > div > a {
+  text-decoration: none;
+  color: darkgreen;
+  margin: 16px;
+}
+
 @media screen and (max-width: 1000px) {
   .project-card {
     flex-direction: column;

@@ -17,7 +17,6 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                 <div>
                     <a
                         href={`${github}`}
-                        style={{ textDecoration: `none`, color: `darkgreen`, marginRight: `16px` }}
                         target={"_blank"}
                         rel={"noopener noreferrer"}
                     >
@@ -25,7 +24,6 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                         </a>
                     <a
                         href={`${live}`}
-                        style={{ textDecoration: `none`, color: `darkgreen`, marginRight: `16px` }}
                         target={"_blank"}
                         rel={"noopener noreferrer"}
                     >
