@@ -11,6 +11,10 @@ a {
     font-family: "Ubuntu-Bold";
 }
 
+.headshot-container {
+    border: thick double black;
+}
+
 .projects-head {
     text-align: center;
     margin: 2.5rem;

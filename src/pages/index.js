@@ -41,7 +41,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <article>
         <div className="left">
-          <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+          <div className="headshot-container">
             <Headshot />
           </div>
         </div>
