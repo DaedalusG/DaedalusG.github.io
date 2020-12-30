@@ -42,7 +42,7 @@ const IndexPage = () => {
       <article>
         <div className="left">
           <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-            <Headshot style={{ width: `500px` }} />
+            <Headshot />
           </div>
         </div>
         <div className="right">
