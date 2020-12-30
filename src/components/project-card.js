@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'gatsby-image';
+import Img from 'gatsby-image';
 
 import './styles/project-card.css';
 
@@ -8,7 +8,7 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
         <projectcard>
             <div className="image-container">
                 <a href={`${live}`}>
-                    <Image fluid={imageData} alt={title} />
+                    <Img fluid={imageData} alt={title} />
                 </a>
             </div>
             <div className="info">
