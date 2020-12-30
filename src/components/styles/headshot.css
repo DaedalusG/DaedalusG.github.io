@@ -1,6 +1,4 @@
 .imageContainer {
-    width: 250px;
-    /* height: 750px; */
-    border: 25px red;
-    border-radius: 50px;
+    width: 15rem;
+    border: thick double black;
 }

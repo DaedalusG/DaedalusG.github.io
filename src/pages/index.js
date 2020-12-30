@@ -41,9 +41,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <article>
         <div className="left">
-          <div className="headshot-container">
-            <Headshot />
-          </div>
+          <Headshot />
         </div>
         <div className="right">
           <h1>Welcome to my portfolio!</h1>
