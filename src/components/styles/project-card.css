@@ -23,6 +23,7 @@ projectcard:hover {
 projectcard > div {
   padding: 10px;
 }
+
 /* .project-card > div {
   display: flex;
   flex-direction: column;
@@ -48,9 +49,11 @@ projectcard > div {
 .technologies {
   display: flex;
   flex-direction: row;
+  margin-top: 0.45rem;
 }
 
-.technologies > h4 {
+.technologies > h5 {
+  color: green;
   margin-right: 0.46rem;
 }
 

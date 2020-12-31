@@ -13,7 +13,6 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
             </div>
             <div className="info">
                 <h2>{title}</h2>
-                <p>{description}</p>
                 <div className="technologies">
                     {technologies.map((technology) => {
                         return (
@@ -21,6 +20,7 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                         )
                     })}
                 </div>
+                <p>{description}</p>
                 <div>
                     <a
                         href={`${github}`}
