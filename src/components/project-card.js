@@ -30,14 +30,14 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                         Live Site &rarr;
                         </a>
                 </div>
+                <div className="technologies">
+                    {technologies.map((technology) => {
+                        return (
+                            <li>{technology}</li>
+                        )
+                    })}
+                </div>
             </div>
-            {/* <div>
-                {technologies.map((technology) => {
-                    return (
-                        <li>{technology}</li>
-                    )
-                })}
-            </div> */}
         </projectcard>
     )
 }
