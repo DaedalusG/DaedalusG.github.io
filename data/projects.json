@@ -5,7 +5,7 @@
         "live": "https://life-box.herokuapp.com/",
         "github": "https://github.com/DaedalusG/LifeBox",
         "image": "./images/LifeBox.png",
-        "description": "LifeBox is a social network for exploring Conway's Game Of Life. Users can create initial conditions for a game in the form of a grid. Grids that have been saved can be loaded and commented upon by LifeBox users.  This App was created with React, Flask, PostgreSQL, Canvas and S3.",
+        "description": "LifeBox is an environment for exploring and sharing Conway's Game Of Life. Users can create a grid; an initial condition. Once saved a grid can be loaded and commented upon by LifeBox users. This app is meant to help educators get students into concepts like emergence, chaos, and system science in general.",
         "technologies": [
             "React Hooks",
             "Python",
@@ -23,7 +23,7 @@
         "live": "https://chatter-clone.herokuapp.com/",
         "github": "https://github.com/DaedalusG/Chatter",
         "image": "./images/Chatter.png",
-        "description": "A twitter like social network with basic CRUD operations. Chatter was a group project completed with a team of four, during my time at AppAcademy. We used React, Flask, and S3 primarily. This project was a great experience in learning about React, and also best practices for GitHub work flows with a team.",
+        "description": "A twitter like social network with basic CRUD operations. Chatter was a group project completed with a team of four, during my time at AppAcademy. This project was a great experience in learning about React, and also best practices for GitHub work flows with a team. Lots of emphasis on making it look just like Twitter.",
         "technologies": [
             "React Hooks",
             "Python",
@@ -41,7 +41,7 @@
         "live": "https://noisewave.herokuapp.com/",
         "github": "https://github.com/DaedalusG/NoiseWave",
         "image": "./images/NoiseWave.png",
-        "description": "My \"hello world\" app. NoiseWave is a soundcloud like music platform, where users can upload and stream music. This project was created by a team of four utilizing, vanilla javascript, express, sequelize, pug, and an S3 bucket. This page also utilizes ajax to allow users to continually stream music while navigating the site.",
+        "description": "My \"hello world\" app. NoiseWave is a soundcloud like music platform, where users can upload and stream music. This project was created by a team of four, and was our teams first web app, and first time as a team. Additionally it was developed before learning React, which meant getting tricky with Ajax.",
         "technologies": [
             "Javascript",
             "Pug",
