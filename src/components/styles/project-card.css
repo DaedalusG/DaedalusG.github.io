@@ -41,7 +41,6 @@ projectcard > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* padding: 15px 0px 25px 15px; */
 }
 
 .info > div > a {
