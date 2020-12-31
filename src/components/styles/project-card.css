@@ -15,9 +15,13 @@ projectcard:hover {
 }
 
 .image-container {
-  width: 64rem;
-  height: 13rem;
-  align-items: center;
+  width: stretch;
+  height: stretch;
+  margin-top: 1rem;
+}
+
+.project-image {
+  vertical-align: middle;
 }
 
 projectcard > div {
@@ -37,7 +41,7 @@ projectcard > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px 0px 25px 15px;
+  /* padding: 15px 0px 25px 15px; */
 }
 
 .info > div > a {
@@ -55,6 +59,7 @@ projectcard > div {
 .technologies > h5 {
   color: green;
   margin-right: 0.46rem;
+  margin-bottom: 0.95rem;
 }
 
 @media screen and (max-width: 1000px) {

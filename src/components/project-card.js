@@ -8,7 +8,7 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
         <projectcard>
             <div className="image-container">
                 <a href={`${live}`}>
-                    <Img fluid={imageData} alt={title} />
+                    <Img className="project-image" fluid={imageData} alt={title} />
                 </a>
             </div>
             <div className="info">
