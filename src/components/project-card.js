@@ -14,6 +14,13 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
             <div className="info">
                 <h2>{title}</h2>
                 <p>{description}</p>
+                <div className="technologies">
+                    {technologies.map((technology) => {
+                        return (
+                            <h4>{technology}</h4>
+                        )
+                    })}
+                </div>
                 <div>
                     <a
                         href={`${github}`}
@@ -29,13 +36,6 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                     >
                         Live Site &rarr;
                         </a>
-                </div>
-                <div className="technologies">
-                    {technologies.map((technology) => {
-                        return (
-                            <li>{technology}</li>
-                        )
-                    })}
                 </div>
             </div>
         </projectcard>

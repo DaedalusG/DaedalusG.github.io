@@ -50,6 +50,10 @@ projectcard > div {
   flex-direction: row;
 }
 
+.technologies > h4 {
+  margin-right: 0.46rem;
+}
+
 @media screen and (max-width: 1000px) {
   .project-card {
     flex-direction: column;
