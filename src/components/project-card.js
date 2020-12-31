@@ -17,7 +17,7 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                 <div className="technologies">
                     {technologies.map((technology) => {
                         return (
-                            <h4>{technology}</h4>
+                            <h5>{technology}</h5>
                         )
                     })}
                 </div>
