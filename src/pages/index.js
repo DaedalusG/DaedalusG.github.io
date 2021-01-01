@@ -23,7 +23,7 @@ const IndexPage = () => {
                         technologies
                         image {
                             childImageSharp {
-                                fixed (width:400) {
+                                fixed (width:350) {
                                     ...GatsbyImageSharpFixed
                                 }
                             }
@@ -59,7 +59,7 @@ const IndexPage = () => {
         const live = project.live;
         const github = project.github;
         const technologies = project.technologies
-        const imageData = project.image.childImageSharp.fluid;
+        const imageData = project.image.childImageSharp.fixed;
         return (
           <ProjectCard
             title={title}
