@@ -44,7 +44,7 @@ const IndexPage = () => {
         <div className="headshot-c">
           <Headshot />
         </div>
-        <p>My name is Warren, and I write code.</p>
+        <p>My name is Warren, I write code, research new technologies, and hangout with my dog Bajor.</p>
         <div className="right">
           <p>Here you can access links to my projects, and learn a little bit about my interests and background. This site was developed with Gatsby</p>
           <p>Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>

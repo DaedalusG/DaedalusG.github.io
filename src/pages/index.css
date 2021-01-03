@@ -1,6 +1,8 @@
 greeting {
     display: flex;
     flex-flow: column;
+    text-align: center;
+    align-items: center;
     /* align-items: center; */
     /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
     background-size: cover; */
@@ -13,8 +15,9 @@ a {
 }
 
 .headshot-c {
-    width: 50%;
+    width: 70%;
     border: thick double black;
+    margin-bottom: 0.5rem;
 }
 
 
