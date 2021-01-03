@@ -52,7 +52,7 @@ const IndexPage = () => {
           <p>Get in touch with me on <a href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}>LinkedIn</a>, or shoot me an <a href={"mailto:warrenbruceg@gmail.com"}>email</a>.</p>
         </div>
       </greeting>
-      <h2 className="projects-head">See my most recent projects below </h2>
+      <h2 className="direction">See my most recent projects below </h2>
       {projects.map(({ node: project }) => {
         const title = project.title;
         const description = project.description;

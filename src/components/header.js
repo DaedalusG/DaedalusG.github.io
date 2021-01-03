@@ -17,12 +17,12 @@ const Header = () => {
         </Link>
         <h2>
           <divider />
-          <Link className="link" to="/projects">
-            Projects
-          </Link>
-          <divider />
           <Link className="link" to="/about">
             About
+          </Link>
+          <divider />
+          <Link className="link" to="/projects">
+            Projects
           </Link>
           <divider />
           <a
