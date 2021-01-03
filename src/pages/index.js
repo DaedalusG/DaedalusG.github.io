@@ -10,6 +10,26 @@ import ProjectCard from "../components/project-card"
 import "./index.css"
 
 const IndexPage = () => {
+
+  const stack = useStaticQuery(graphql`
+      {
+        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "technologies"}}) {
+          edges {
+            node {
+              base
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+  `);
+
+  const technologies = stack.allFile.edges;
+
   const data = useStaticQuery(graphql`
         {
             allProjectsJson {
