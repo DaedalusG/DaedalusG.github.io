@@ -39,23 +39,19 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <article>
-        <div className="greeting">
-          <div className="headshot-c">
-            <Headshot />
-          </div>
-          <div>
-            {/* <h1>Welcome to my portfolio!</h1> */}
-            {/* <p>My name is Warren, and I write code.</p> */}
-          </div>
+      <greeting>
+        <h1>Welcome to my portfolio!</h1>
+        <div className="headshot-c">
+          <Headshot />
         </div>
+        <p>My name is Warren, and I write code.</p>
         <div className="right">
           <p>Here you can access links to my projects, and learn a little bit about my interests and background. This site was developed with Gatsby</p>
           <p>Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>
           <p>This site was developed with Gatsby</p>
           <p>Get in touch with me on <a href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}>LinkedIn</a>, or shoot me an <a href={"mailto:warrenbruceg@gmail.com"}>email</a>.</p>
         </div>
-      </article>
+      </greeting>
       <h2 className="projects-head">See my most recent projects below </h2>
       {projects.map(({ node: project }) => {
         const title = project.title;

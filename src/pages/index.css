@@ -1,4 +1,4 @@
-article {
+greeting {
     display: flex;
     flex-flow: column;
     /* align-items: center; */
@@ -10,11 +10,6 @@ a {
     text-decoration: none;
     color: darkgreen;
     font-family: "Ubuntu-Bold";
-}
-
-.greeting {
-    display: flex;
-    flex-direction: row;
 }
 
 .headshot-c {
