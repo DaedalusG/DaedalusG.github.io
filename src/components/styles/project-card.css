@@ -4,7 +4,7 @@ projectcard {
   display: flex;
   overflow: auto;
   font-size: 1.1rem;
-  height: 25%;
+  height: auto;
   background-color: transparent;
   transition: background-color .25s;
   margin: 20px 0;
