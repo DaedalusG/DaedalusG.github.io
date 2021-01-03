@@ -5,7 +5,6 @@ module.exports = {
     author: `DaedalusG`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,7 +12,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,6 +19,8 @@ module.exports = {
         path: './data'
       }
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     {
