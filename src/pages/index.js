@@ -23,7 +23,7 @@ const IndexPage = () => {
                         technologies
                         image {
                             childImageSharp {
-                                fluid (maxWidth: 250 ) {
+                                fluid {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
