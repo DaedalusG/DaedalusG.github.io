@@ -11,7 +11,7 @@ import "./index.css"
 
 const IndexPage = () => {
 
-  const stack = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
       {
         allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "technologies"}}) {
           edges {
@@ -25,36 +25,30 @@ const IndexPage = () => {
             }
           }
         }
-      }
-  `);
-
-  const technologies = stack.allFile.edges;
-
-  const data = useStaticQuery(graphql`
-        {
-            allProjectsJson {
-                edges {
-                    node {
-                        title
-                        slug
-                        live
-                        github
-                        description
-                        technologies
-                        image {
-                            childImageSharp {
-                                fluid {
-                                    ...GatsbyImageSharpFluid
-                                }
-                            }
-                        }
-                    }
+        allProjectsJson {
+          edges {
+            node {
+              title
+              slug
+              live
+              github
+              description
+              technologies
+              image {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
                 }
+              }
             }
+          }
         }
-    `);
+      }
+      `);
 
   const projects = data.allProjectsJson.edges;
+  const technologies = data.allFile.edges;
 
   return (
     <Layout>
