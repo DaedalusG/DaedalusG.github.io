@@ -96,7 +96,7 @@ h1 {
    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   line-height: 1.1;
 }
 mark {
@@ -274,7 +274,7 @@ h2 {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   line-height: 1.1;
 }
 h3 {
@@ -600,6 +600,18 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+/* Small devices (landscape phones, 480px and up) */
+/* @media (min-width: 480px) { ... } */
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+/* Large devices (desktops, 980px and up) */
+/* @media (min-width: 980px) { ... } */
+/* Extra large devices (large desktops, 1220px and up) */
+/* @media (min-width: 1220px) { ... } */
+/* Extra extra large devices (large desktops, 1440px and up) */
+/* @media (min-width: 1440px) { ... } */
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

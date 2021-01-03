@@ -40,11 +40,11 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <article>
-        <div className="left">
+        <div className="greeting">
           <Headshot />
+          <h1>Welcome to my portfolio!</h1>
         </div>
         <div className="right">
-          <h1>Welcome to my portfolio!</h1>
           <p>Hey my names Warren, I'm a software developer.</p>
           <p>Here you can access links to my projects, and learn a little bit about my interests and background. This site was developed with Gatsby</p>
           <p>Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>

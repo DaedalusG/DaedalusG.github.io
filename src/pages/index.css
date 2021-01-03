@@ -1,6 +1,6 @@
 article {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
     background-size: cover; */
 }
@@ -21,11 +21,24 @@ a {
     color: darkgreen;
 }
 
-.left {
-    margin-right: 2rem;
+.greeting {
+    display: flex;
+    flex-direction: row;
 }
 
 .right > p {
     font-size: 1.2rem;
 }
+
+
+/* Small devices (landscape phones, 480px and up) */
+/* @media (min-width: 480px) { ... } */
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+/* Large devices (desktops, 980px and up) */
+/* @media (min-width: 980px) { ... } */
+/* Extra large devices (large desktops, 1220px and up) */
+/* @media (min-width: 1220px) { ... } */
+/* Extra extra large devices (large desktops, 1440px and up) */
+/* @media (min-width: 1440px) { ... } */
 
