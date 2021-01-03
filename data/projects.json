@@ -31,7 +31,6 @@
             "Flask",
             "PostgreSQL",
             "SQLAlchemy",
-            "Canvas API",
             "AWS S3",
             "CSS3",
             "Docker"
