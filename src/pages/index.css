@@ -12,9 +12,16 @@ a {
     font-family: "Ubuntu-Bold";
 }
 
-.headshot-container {
+.greeting {
+    display: flex;
+    flex-direction: row;
+}
+
+.headshot-c {
+    width: 50%;
     border: thick double black;
 }
+
 
 .projects-head {
     text-align: center;
@@ -22,10 +29,6 @@ a {
     color: darkgreen;
 }
 
-.greeting {
-    display: flex;
-    flex-direction: row;
-}
 
 .right > p {
     font-size: 1.2rem;

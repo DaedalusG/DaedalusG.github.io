@@ -1,7 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import "./styles/headshot.css"
 
 const Headshot = () => {
   const data = useStaticQuery(graphql`
@@ -21,9 +20,7 @@ const Headshot = () => {
   }
 
   return (
-    <div className="imageContainer">
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-    </div>
+    <Img fluid={data.placeholderImage.childImageSharp.fluid} />
   )
 
 }

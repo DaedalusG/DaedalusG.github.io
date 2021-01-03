@@ -41,7 +41,9 @@ const IndexPage = () => {
       <SEO title="Home" />
       <article>
         <div className="greeting">
-          <Headshot />
+          <div className="headshot-c">
+            <Headshot />
+          </div>
           <div>
             {/* <h1>Welcome to my portfolio!</h1> */}
             {/* <p>My name is Warren, and I write code.</p> */}
