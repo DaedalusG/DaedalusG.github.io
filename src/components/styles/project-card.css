@@ -8,6 +8,8 @@ projectcard {
   background-color: rgb(237, 227, 227);
   transition: background-color .25s;
   margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 projectcard:hover {
@@ -15,17 +17,24 @@ projectcard:hover {
   background-color: rgb(237, 227, 227);
 }
 
-.image-container {
-  width: 90%;
+projectcard > p {
+  text-align: center;
 }
 
-.technologies {
+.image-container {
+  width: 100%;
+  border: thick double black;
+}
+
+.techused {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   margin-top: 0.45rem;
 }
 
-.technologies > h5 {
+.techused > h5 {
   color: green;
   margin-right: 0.46rem;
   margin-bottom: 0.95rem;

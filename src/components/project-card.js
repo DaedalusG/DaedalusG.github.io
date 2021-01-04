@@ -12,7 +12,7 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                     <Img fluid={imageData} alt={title} />
                 </a>
             </div>
-            <div className="technologies">
+            <div className="techused">
                 {technologies.map((technology) => {
                     return (
                         <h5>{technology}</h5>
