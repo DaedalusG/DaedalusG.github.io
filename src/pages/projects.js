@@ -19,8 +19,8 @@ const Projects = () => {
                         technologies
                         image {
                             childImageSharp {
-                                fixed (width:350) {
-                                    ...GatsbyImageSharpFixed
+                                fluid {
+                                    ...GatsbyImageSharpFluid
                                 }
                             }
                         }
@@ -41,7 +41,7 @@ const Projects = () => {
                 const technologies = project.technologies;
                 const live = project.live;
                 const github = project.github;
-                const imageData = project.image.childImageSharp.fixed;
+                const imageData = project.image.childImageSharp.fluid;
                 return (
                     <ProjectCard
                         title={title}
