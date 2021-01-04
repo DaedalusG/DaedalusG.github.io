@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby'
+import Img from "gatsby-image";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -63,7 +64,14 @@ const IndexPage = () => {
         <p>Get in touch with me on <a href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}>LinkedIn</a>, or shoot me an <a href={"mailto:warrenbruceg@gmail.com"}>email</a>.</p>
         <h2 className='direction'>Behold my technologies</h2>
         <div className="technologies">
-
+          {technologies.map(({ node: technology }) => {
+            const imageData = technology.childImageSharp.fluid;
+            return (
+              <div className='logo-c'>
+                <Img fluid={imageData} />
+              </div>
+            )
+          })}
         </div>
         <div className="right">
           <p>Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>

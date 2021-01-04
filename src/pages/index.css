@@ -20,6 +20,14 @@ a {
     margin-bottom: 0.5rem;
 }
 
+.technologies {
+    display: flex;
+}
+
+.logo-c {
+    width: 1.5rem;
+}
+
 
 .direction {
     text-align: center;
