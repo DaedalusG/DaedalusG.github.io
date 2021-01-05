@@ -115,21 +115,30 @@ a {
         justify-content: space-around;
         text-align: left;
         margin-bottom: 2.5rem;
+        height: 18rem;
     }
 
     .desktop-tech-info {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width: 20rem;
     }
     
     .tech-icons {
-        width: 14rem;
+        width: 18rem;
+    }
+
+    .logo-c {
+        width: 2.5rem;
+        margin: .5rem;
     }
 
     .desktop-tech-direction {
         display: inherit;
-        text-align: center;
+        /* text-align: center; */
         margin-bottom: 1.5rem;
         color: darkgreen;
     }

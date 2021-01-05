@@ -6,12 +6,14 @@ import './styles/project-card.css';
 const ProjectCard = ({ title, description, technologies, imageData, live, github }) => {
     return (
         <projectcard>
-            <h1>{title}</h1>
+            <h1 className="mobile-project-title">{title}</h1>
             <div className="image-container">
                 <a href={`${live}`}>
                     <Img fluid={imageData} alt={title} />
                 </a>
             </div>
+            <div className="projectcard-info"></div>
+            <h1 className="desktop-project-title">{title}</h1>
             <div className="techused">
                 {technologies.map((technology) => {
                     return (
