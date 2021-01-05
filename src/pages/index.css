@@ -24,10 +24,19 @@ a {
     display: none;
 }
 
+.desktop-info {
+    display: none;
+}
+
+.desktop-tech-info {
+    display: none;
+}
+
 .technologies {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     margin-bottom: 2.5rem;
 }
 
@@ -52,11 +61,16 @@ a {
 @media (min-width: 980px) {
     greeting {
         display: flex;
-        flex-flow: column;
-        text-align: center;
-        align-items: center;
+        flex-flow: row;
+        text-align:inherit
         /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
         background-size: cover; */
+    }
+
+    .greeting-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
     }
 
     .mobile-welcome {
@@ -64,7 +78,27 @@ a {
     }
 
     .desktop-welcome {
-        display:inherit
+        display: inherit;
+    }
+
+    .mobile-tech-info {
+        display: none;
+    }
+
+    .desktop-tech-info {
+        display: inherit;
+    }
+
+    .desktop-info {
+        display: inherit;
+    }
+
+    .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 2.5rem;
     }
 }
 /* Extra large devices (large desktops, 1220px and up) */

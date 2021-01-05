@@ -56,28 +56,29 @@ const IndexPage = () => {
       <SEO title="Home" />
       <greeting>
         <h1 className="mobile-welcome">Welcome to my portfolio!</h1>
-        {/* <p>Here you can access links to my projects, and learn a little bit about my interests and background. This site was developed with Gatsby</p> */}
         <div className="headshot-c">
           <Headshot />
         </div>
         <div className="greeting-info">
           <h1 className="desktop-welcome">Welcome to my portfolio!</h1>
           <p>My name is Warren, I write code, research new technologies, and hangout with my dog Bajor.</p>
+          <p className="desktop-info">Here you can access links to my projects, and learn a little bit about my interests and background. This site was developed with Gatsby</p>
           <p>Get in touch with me on <a href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}>LinkedIn</a>, or shoot me an <a href={"mailto:warrenbruceg@gmail.com"}>email</a>.</p>
         </div>
-        <h2 className='direction'>Behold my technologies</h2>
-        <div className="technologies">
-          {technologies.map(({ node: technology }) => {
-            const imageData = technology.childImageSharp.fluid;
-            return (
-              <div className='logo-c'>
-                <Img fluid={imageData} />
-              </div>
-            )
-          })}
-        </div>
-        <p>Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>
       </greeting>
+      <h2 className='direction'>Behold my technologies</h2>
+      <div className="technologies">
+        <p className="desktop-tech-info">Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>
+        {technologies.map(({ node: technology }) => {
+          const imageData = technology.childImageSharp.fluid;
+          return (
+            <div className='logo-c'>
+              <Img fluid={imageData} />
+            </div>
+          )
+        })}
+        <p className="mobile-tech-info">Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>
+      </div>
       <h2 className="direction">See my most recent projects below </h2>
       {projects.map(({ node: project }) => {
         const title = project.title;
