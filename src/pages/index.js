@@ -69,14 +69,16 @@ const IndexPage = () => {
       <h2 className='direction'>Behold my technologies</h2>
       <div className="technologies">
         <p className="desktop-tech-info">Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>
-        {technologies.map(({ node: technology }) => {
-          const imageData = technology.childImageSharp.fluid;
-          return (
-            <div className='logo-c'>
-              <Img fluid={imageData} />
-            </div>
-          )
-        })}
+        <div className="tech-icons">
+          {technologies.map(({ node: technology }) => {
+            const imageData = technology.childImageSharp.fluid;
+            return (
+              <div className='logo-c'>
+                <Img fluid={imageData} />
+              </div>
+            )
+          })}
+        </div>
         <p className="mobile-tech-info">Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </p>
       </div>
       <h2 className="direction">See my most recent projects below </h2>

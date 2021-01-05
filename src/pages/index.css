@@ -40,6 +40,13 @@ a {
     margin-bottom: 2.5rem;
 }
 
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo-c {
     width: 1.5rem;
     margin: .5rem;
