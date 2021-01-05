@@ -3,7 +3,6 @@ greeting {
     flex-flow: column;
     text-align: center;
     align-items: center;
-    /* align-items: center; */
     /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
     background-size: cover; */
 }
@@ -19,6 +18,10 @@ a {
     max-width: 15rem;
     border: thick double black;
     margin-bottom: 0.5rem;
+}
+
+.desktop-welcome {
+    display: none;
 }
 
 .technologies {
@@ -47,7 +50,22 @@ a {
 /* @media (min-width: 768px) { ... } */
 /* Large devices (desktops, 980px and up) */
 @media (min-width: 980px) {
+    greeting {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        align-items: center;
+        /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
+        background-size: cover; */
+    }
 
+    .mobile-welcome {
+        display: none;
+    }
+
+    .desktop-welcome {
+        display:inherit
+    }
 }
 /* Extra large devices (large desktops, 1220px and up) */
 /* @media (min-width: 1220px) { ... } */
