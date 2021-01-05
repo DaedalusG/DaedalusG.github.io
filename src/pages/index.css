@@ -59,6 +59,12 @@ a {
     color: darkgreen;
 }
 
+.tech-direction {
+    text-align: center;
+    margin: 2.5rem;
+    color: darkgreen;
+}
+
 
 /* Small devices (landscape phones, 480px and up) */
 /* @media (min-width: 480px) { ... } */
@@ -69,7 +75,8 @@ a {
     greeting {
         display: flex;
         flex-flow: row;
-        text-align:inherit
+        text-align:inherit;
+        margin-bottom: 2.5rem;
         /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
         background-size: cover; */
     }
@@ -106,6 +113,10 @@ a {
     justify-content: center;
     text-align: left;
     margin-bottom: 2.5rem;
+    }
+
+    .tech-direction {
+        display: none;
     }
 }
 /* Extra large devices (large desktops, 1220px and up) */
