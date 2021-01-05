@@ -16,6 +16,11 @@ projectcard:hover {
   background-color: rgb(237, 227, 227);
 }
 
+.project-scene {
+  text-align: center;
+  width: 100%;
+}
+
 .projectcard-info {
   display: flex;
   flex-direction: column;
@@ -62,6 +67,13 @@ projectcard > p {
 @media (min-width: 980px) {
   projectcard {
     flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .projectcard-info {
+    align-items: flex-start;
+    text-align: left;
+    width: 10rem;
   }
 
   .mobile-project-title {
@@ -81,6 +93,12 @@ projectcard > p {
     flex-direction: row;
     justify-content: center;
     margin-top: 0.45rem;
+  }
+
+  .desktop-techused > h5 {
+  color: green;
+  margin-right: 0.46rem;
+  margin-bottom: 0.95rem;
   }
 }
 /* Extra large devices (large desktops, 1220px and up) */
