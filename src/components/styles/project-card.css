@@ -32,7 +32,7 @@ projectcard > p {
   border: thick double black;
 }
 
-.techused {
+.mobile-techused {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -40,7 +40,7 @@ projectcard > p {
   margin-top: 0.45rem;
 }
 
-.techused > h5 {
+.mobile-techused > h5 {
   color: green;
   margin-right: 0.46rem;
   margin-bottom: 0.95rem;
@@ -50,25 +50,29 @@ projectcard > p {
     display: none;
 }
 
+.desktop-techused {
+  display: none;
+}
+
 /* Small devices (landscape phones, 480px and up) */
 /* @media (min-width: 480px) { ... } */
 /* Medium devices (tablets, 768px and up) */
 /* @media (min-width: 768px) { ... } */
 /* Large devices (desktops, 980px and up) */
 @media (min-width: 980px) {
-  /* projectcard {
-
+  projectcard {
+    flex-direction: row;
   }
-
-  .projectcard-info {
-    display
-  } */
 
   .mobile-project-title {
     display: none;
   }
   .desktop-project-title {
     display: inherit;
+  }
+
+  .mobile-techused {
+    display: none;
   }
 }
 /* Extra large devices (large desktops, 1220px and up) */
