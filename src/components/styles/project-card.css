@@ -45,7 +45,9 @@ projectcard > p {
 /* Medium devices (tablets, 768px and up) */
 /* @media (min-width: 768px) { ... } */
 /* Large devices (desktops, 980px and up) */
-/* @media (min-width: 980px) { ... } */
+@media (min-width: 980px) {
+
+}
 /* Extra large devices (large desktops, 1220px and up) */
 /* @media (min-width: 1220px) { ... } */
 /* Extra extra large devices (large desktops, 1440px and up) */
