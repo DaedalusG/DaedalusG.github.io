@@ -81,12 +81,16 @@ projectcard > p {
     width: 36rem;
   }
 
+  .projectcard-info > p {
+    margin-bottom: 3.5rem;
+  }
+
   .mobile-project-title {
     display: none;
   }
   .desktop-project-title {
     display: inherit;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.75rem;
   }
 
   .mobile-techused {
