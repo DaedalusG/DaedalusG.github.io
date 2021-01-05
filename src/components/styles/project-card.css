@@ -74,6 +74,14 @@ projectcard > p {
   .mobile-techused {
     display: none;
   }
+
+  .desktop-techused {
+    display: inherit;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.45rem;
+  }
 }
 /* Extra large devices (large desktops, 1220px and up) */
 /* @media (min-width: 1220px) { ... } */
