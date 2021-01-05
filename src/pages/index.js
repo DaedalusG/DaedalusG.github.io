@@ -66,9 +66,12 @@ const IndexPage = () => {
           <p>Get in touch with me on <a href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}>LinkedIn</a>, or shoot me an <a href={"mailto:warrenbruceg@gmail.com"}>email</a>.</p>
         </div>
       </greeting>
-      <h2 className='tech-direction'>Behold my technologies</h2>
+      <h2 className='mobile-tech-direction'>Behold my technologies</h2>
       <div className="technologies">
-        <div className="desktop-tech-info">Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here. </div>
+        <div className="desktop-tech-info">
+          <h2 className="desktop-tech-direction">What I Know, What I'm Learning</h2>
+          <p>Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here.</p>
+        </div>
         <div className="tech-icons">
           {technologies.map(({ node: technology }) => {
             const imageData = technology.childImageSharp.fluid;

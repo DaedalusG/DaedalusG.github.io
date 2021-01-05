@@ -32,6 +32,10 @@ a {
     display: none;
 }
 
+.desktop-tech-direction {
+    display:none;
+}
+
 .technologies {
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +63,7 @@ a {
     color: darkgreen;
 }
 
-.tech-direction {
+.mobile-tech-direction {
     text-align: center;
     margin: 2.5rem;
     color: darkgreen;
@@ -99,26 +103,38 @@ a {
         display: none;
     }
 
-    .desktop-tech-info {
-        display: inherit;
-        
-    }
-
+    
     .desktop-info {
         display: inherit;
     }
-
+    
     .technologies {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: left;
-    margin-bottom: 2.5rem;
-    background-color: lawngreen;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: left;
+        margin-bottom: 2.5rem;
     }
 
-    .tech-direction {
+    .desktop-tech-info {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+    }
+    
+    .tech-icons {
+        width: 14rem;
+    }
+
+    .desktop-tech-direction {
+        display: inherit;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: darkgreen;
+    }
+
+    .mobile-tech-direction {
         display: none;
     }
 }
