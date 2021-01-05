@@ -101,6 +101,7 @@ a {
 
     .desktop-tech-info {
         display: inherit;
+        
     }
 
     .desktop-info {
@@ -109,10 +110,12 @@ a {
 
     .technologies {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     text-align: left;
     margin-bottom: 2.5rem;
+    background-color: lawngreen;
     }
 
     .tech-direction {
