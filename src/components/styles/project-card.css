@@ -16,6 +16,13 @@ projectcard:hover {
   background-color: rgb(237, 227, 227);
 }
 
+.projectcard-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 projectcard > p {
   text-align: center;
 }
@@ -49,6 +56,14 @@ projectcard > p {
 /* @media (min-width: 768px) { ... } */
 /* Large devices (desktops, 980px and up) */
 @media (min-width: 980px) {
+  /* projectcard {
+
+  }
+
+  .projectcard-info {
+    display
+  } */
+
   .mobile-project-title {
     display: none;
   }
