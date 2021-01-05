@@ -68,12 +68,17 @@ projectcard > p {
   projectcard {
     flex-direction: row;
     flex-wrap: nowrap;
+    padding: 1.5rem;
+  }
+
+  .project-scene {
+    margin-right: 4rem;
   }
 
   .projectcard-info {
     align-items: flex-start;
     text-align: left;
-    width: 10rem;
+    width: 36rem;
   }
 
   .mobile-project-title {
@@ -81,6 +86,7 @@ projectcard > p {
   }
   .desktop-project-title {
     display: inherit;
+    margin-bottom: 0.25rem;
   }
 
   .mobile-techused {
@@ -88,11 +94,11 @@ projectcard > p {
   }
 
   .desktop-techused {
-    display: inherit;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin-top: 0.45rem;
+    margin-top: 2rem;
   }
 
   .desktop-techused > h5 {
