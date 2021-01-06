@@ -69,7 +69,7 @@ const IndexPage = () => {
       <h2 className='mobile-tech-direction'>Behold my technologies</h2>
       <div className="technologies">
         <div className="desktop-tech-info">
-          <h2 className="desktop-tech-direction">What I Know, What I'm Learning</h2>
+          <h2 className="desktop-tech-direction">What I Know, and what I'm Learning</h2>
           <p>Currently I get excited about deFi, NLP, progressive web apps, infosec, and pretty much everything else. I'm learning more all the time, and if you want you can keep up with me here.</p>
         </div>
         <div className="tech-icons">
