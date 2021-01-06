@@ -78,11 +78,11 @@ projectcard > p {
   .projectcard-info {
     align-items: flex-start;
     text-align: left;
-    width: 36rem;
+    width: 45rem;
   }
 
   .projectcard-info > p {
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
   }
 
   .mobile-project-title {
