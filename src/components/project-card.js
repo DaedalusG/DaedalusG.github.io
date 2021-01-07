@@ -30,7 +30,7 @@ const ProjectCard = ({ title, description, technologies, imageData, live, github
                         )
                     })}
                 </div>
-                <p>{description}</p>
+                <p className="project-description">{description}</p>
                 <div>
                     <a
                         href={`${github}`}

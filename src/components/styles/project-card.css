@@ -16,6 +16,11 @@ projectcard:hover {
   background-color: rgb(237, 227, 227);
 }
 
+projectcard:hover .project-description {
+  display: flex;
+  height: auto;
+}
+
 .project-scene {
   text-align: center;
   width: 100%;
@@ -28,7 +33,8 @@ projectcard:hover {
   text-align: center;
 }
 
-projectcard > p {
+.project-description {
+  display: none;
   text-align: center;
 }
 
@@ -82,8 +88,13 @@ projectcard > p {
     width: 45rem;
   }
 
-  .projectcard-info > p {
+  .project-description {
     margin-bottom: 2rem;
+  }
+
+  .project-description {
+    display: flex;
+    text-align: left;
   }
 
   .mobile-project-title {
