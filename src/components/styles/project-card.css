@@ -73,6 +73,7 @@ projectcard > p {
 
   .project-scene {
     margin-right: 4rem;
+    max-width: 22rem;
   }
 
   .projectcard-info {
