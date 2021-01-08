@@ -27,23 +27,33 @@ const About = () => (
     </college>
     <automotive>
       <h3>Automotive</h3>
-      <p>Like I said, I'm a bit of a romantic, and after working my way through
-      college in resteraunts and grocery stores, I decided I wanted to take
-      advantage of my youth. To do some work that was more concrete, and less abstract.
-      I had recently aquired my first car, a 1980 Toyota Corona, in desperate need
-      of repair. A mechanic friend of mine let me hang around while fixing it.
-      He was about to open his own shop, and by the time I graduated college,
-      he had a job waiting for me. Learning to be a mechanic was engaging, the
-      work was fun, and different everyday. After getting some certifications,
-      I sought out more lucrative roles at more established companies, but, after
-      a few years as a mechanic I began to miss thinking abstractly, and being around
-      like minded day dreamers. I still sometimes miss working on cars sometimes,
-      and would love to have a little home shop someday.
+      <p>
+        Like I said, I'm a bit of a romantic, and after working my way through
+        college in resteraunts and grocery stores, I decided I wanted to take
+        advantage of my youth. To do some work that was more concrete, and less abstract.
+        I had recently aquired my first car, a 1980 Toyota Corona, in desperate need
+        of repair. A mechanic friend of mine let me hang around while fixing it.
+        He was about to open his own shop, and by the time I graduated college,
+        he had a job waiting for me. Learning to be a mechanic was engaging, the
+        work was fun, and different everyday. After getting some certifications,
+        I sought out more lucrative roles at more established companies, but, after
+        a few years as a mechanic I began to miss thinking abstractly, and being around
+        like minded day dreamers. I still sometimes miss working on cars sometimes,
+        and would love to have a little home shop someday.
       </p>
     </automotive>
     <developer>
       <h3>Developer</h3>
-      <p>Little bit about AppAcademy and graduation</p>
+      <p>
+        When 2020 hit I was furloughed from the shop I was working at until our
+        customer count got back to normal, but I was already thinking about bootcamps.
+        Since college software development had always seemed like my end career, and
+        automotive work was just a little detour. I decided to enroll in AppAcademy's
+        fullstack web development bootcamp. Over the next six months I dodged covid-19,
+        and built on the little bits of programming knowledge I picked up as a hobbyist
+        and in college. Now I've cast out into the world wide web, and I'm seeking my
+        first role as a software developer.
+      </p>
     </developer>
   </Layout>
 )
