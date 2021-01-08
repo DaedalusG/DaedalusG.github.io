@@ -17,12 +17,29 @@ const About = () => (
         the objects of my imagination. By the time I made it to college I was,
         predictably, a bit of a romantic. I studied physics because it was (secret
         laws of the universe), then mathematics (because those were maybe deeper laws),
-        and finally ended up with a philosophy degree.
+        and finally ended up with a BS of philosophy. While taking philosophy classes,
+        I had the opportunity to take a number of classes with system science faculty,
+        and became facinated with cognition, computational models of cognition, and
+        just generally emergence and complexity theories. During this time I also
+        started learning about computers, and volunteering at Free Geek, a computer
+        recycling nonprofit in Portland.
       </p>
     </college>
     <automotive>
       <h3>Automotive</h3>
-      <p>Little story about working in automotive</p>
+      <p>Like I said, I'm a bit of a romantic, and after working my way through
+      college in resteraunts and grocery stores, I decided I wanted to take
+      advantage of my youth. To do some work that was more concrete, and less abstract.
+      I had recently aquired my first car, a 1980 Toyota Corona, in desperate need
+      of repair. A mechanic friend of mine let me hang around while fixing it.
+      He was about to open his own shop, and by the time I graduated college,
+      he had a job waiting for me. Learning to be a mechanic was engaging, the
+      work was fun, and different everyday. After getting some certifications,
+      I sought out more lucrative roles at more established companies, but, after
+      a few years as a mechanic I began to miss thinking abstractly, and being around
+      like minded day dreamers. I still sometimes miss working on cars sometimes,
+      and would love to have a little home shop someday.
+      </p>
     </automotive>
     <developer>
       <h3>Developer</h3>
