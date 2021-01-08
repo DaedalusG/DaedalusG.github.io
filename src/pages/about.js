@@ -30,7 +30,7 @@ const About = () => (
       <p>
         Like I said, I'm a bit of a romantic, and after working my way through
         college in resteraunts and grocery stores, I decided I wanted to take
-        advantage of my youth. To do some work that was more concrete, and less abstract.
+        advantage of my youth, and do some work that was more concrete, and less abstract.
         I had recently aquired my first car, a 1980 Toyota Corona, in desperate need
         of repair. A mechanic friend of mine let me hang around while fixing it.
         He was about to open his own shop, and by the time I graduated college,
