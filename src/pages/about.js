@@ -21,30 +21,12 @@ const About = () => {
             }
           }
         }
-        allProjectsJson {
-          edges {
-            node {
-              title
-              slug
-              live
-              github
-              description
-              technologies
-              image {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-          }
-        }
       }
       `);
 
-  const projects = data.allProjectsJson.edges;
   const technologies = data.allFile.edges;
+
+  console.log(technologies)
 
   return (
     <Layout>
