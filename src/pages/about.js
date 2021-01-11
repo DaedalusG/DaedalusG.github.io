@@ -9,7 +9,7 @@ const About = () => {
 
   const data = useStaticQuery(graphql`
       {
-        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "technologies"}}) {
+        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "about-media"}}) {
           edges {
             node {
               base
@@ -26,7 +26,7 @@ const About = () => {
 
   const technologies = data.allFile.edges;
 
-  console.log(technologies)
+  console.log('technologies-->', technologies)
 
   return (
     <Layout>
@@ -34,7 +34,7 @@ const About = () => {
       <h1>In development</h1>
       <college>
         <h3>College</h3>
-        <Gallery />
+        <Gallery images={technologies} />
         <p>
           I've always been a bit of a day dreamer. For those that are into it my
           Meiers Briggs personality type (when last I took the test) is INFP. Suffice
