@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Gallery from "../components/gallery.js"
 
 const About = () => (
   <Layout>
@@ -9,6 +10,7 @@ const About = () => (
     <h1>In development</h1>
     <college>
       <h3>College</h3>
+      <Gallery />
       <p>
         I've always been a bit of a day dreamer. For those that are into it my
         Meiers Briggs personality type (when last I took the test) is INFP. Suffice
