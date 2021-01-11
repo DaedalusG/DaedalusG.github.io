@@ -43,10 +43,9 @@ const About = () => {
   return (
     <Layout>
       <SEO title="About" />
-      <h1>In development</h1>
-      <Gallery images={studentImages} />
       <college>
         <h3>College</h3>
+        <Gallery images={studentImages} />
         <p>
           I've always been a bit of a day dreamer. For those that are into it my
           Meiers Briggs personality type (when last I took the test) is INFP. Suffice
@@ -65,6 +64,7 @@ const About = () => {
       </college>
       <automotive>
         <h3>Automotive</h3>
+        <Gallery images={mechanicImages} />
         <p>
           Like I said, I'm a bit of a romantic, and after working my way through
           college in resteraunts and grocery stores, I decided I wanted to take
