@@ -9,7 +9,7 @@ const About = () => {
 
   const data = useStaticQuery(graphql`
       {
-        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "about-media"}}) {
+        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "mechanic"}}) {
           edges {
             node {
               base
