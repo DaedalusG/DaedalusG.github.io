@@ -9,7 +9,19 @@ const About = () => {
 
   const data = useStaticQuery(graphql`
       {
-        allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "mechanic"}}) {
+        mechanic: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "mechanic"}}) {
+          edges {
+            node {
+              base
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+        student: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "student"}}) {
           edges {
             node {
               base
@@ -24,14 +36,15 @@ const About = () => {
       }
       `);
 
-  const images = data.allFile.edges;
-  console.log('images-->', images)
+  const studentImages = data.student.edges;
+  const mechanicImages = data.mechanic.edges;
+  // console.log('images-->', images)
 
   return (
     <Layout>
       <SEO title="About" />
       <h1>In development</h1>
-      <Gallery images={images} />
+      <Gallery images={studentImages} />
       <college>
         <h3>College</h3>
         <p>
