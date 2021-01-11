@@ -16,7 +16,7 @@ const Gallery = ({ images }) => {
         (index === length) ? setIndex(0) : setIndex(index + 1)
     }
     const handlePrevious = () => {
-        (index === 0) ? setIndex(0) : setIndex(index - 1)
+        (index === 0) ? setIndex(length) : setIndex(index - 1)
     }
 
     return (
