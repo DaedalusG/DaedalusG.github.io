@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import Img from "gatsby-image"
 
+import './styles/gallery.css'
+
 const Gallery = ({ images }) => {
     const [index, setIndex] = useState(0);
     const length = images.length - 1;
