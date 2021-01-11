@@ -24,17 +24,16 @@ const About = () => {
       }
       `);
 
-  const technologies = data.allFile.edges;
-
-  console.log('technologies-->', technologies)
+  const images = data.allFile.edges;
+  console.log('images-->', images)
 
   return (
     <Layout>
       <SEO title="About" />
       <h1>In development</h1>
+      <Gallery images={images} />
       <college>
         <h3>College</h3>
-        <Gallery images={technologies} />
         <p>
           I've always been a bit of a day dreamer. For those that are into it my
           Meiers Briggs personality type (when last I took the test) is INFP. Suffice
