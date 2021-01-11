@@ -46,19 +46,7 @@ const About = () => {
         <h3>College</h3>
         <Gallery images={studentImages} />
         <p>
-          I've always been a bit of a day dreamer. For those that are into it my
-          Meiers Briggs personality type (when last I took the test) is INFP. Suffice
-          to say I grew up playing imagination games, things like D&D, and Shadowrun.
-          This was my first real exposure to an abstract sysytem used to contain
-          the objects of my imagination. By the time I made it to college I was,
-          predictably, a bit of a romantic. I studied physics because it was (secret
-          laws of the universe), then mathematics (because those were maybe deeper laws),
-          and finally ended up with a BS of philosophy. While taking philosophy classes,
-          I had the opportunity to take a number of classes with system science faculty,
-          and became facinated with cognition, computational models of cognition, and
-          just generally emergence and complexity theories. During this time I also
-          started learning about computers, and volunteering at Free Geek, a computer
-          recycling nonprofit in Portland.
+          I've always been a bit of a day dreamer, and the last time I took a Meiers Briggs test, I scored INFP. I grew up playing imagination games, things like D&D, and Shadowrun. This was my first real exposure to an abstract system used to contain the objects of my imagination. By the time I made it to college I was, predictably, a bit of a romantic. I studied physics because it was (secret laws of the universe), then mathematics (because those were maybe deeper laws), and finally ended up with a BS of philosophy. While taking philosophy classes, I had the opportunity to take a number of classes with system science faculty, and became fascinated with cognition, computational models of cognition, and just generally emergence and complexity theories. During this time I also started learning about computers, and volunteering at Free Geek, a computer recycling nonprofit in Portland.
       </p>
       </college>
       <automotive>
