@@ -38,7 +38,6 @@ const About = () => {
 
   const studentImages = data.student.edges;
   const mechanicImages = data.mechanic.edges;
-  // console.log('images-->', images)
 
   return (
     <Layout>
