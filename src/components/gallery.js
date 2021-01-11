@@ -20,15 +20,15 @@ const Gallery = ({ images }) => {
     }
 
     return (
-        <div>
-            <div>
+        <gallery>
+            <div className="gallery-images">
                 <Img fluid={image.childImageSharp.fluid} />
             </div>
             <div>
                 <button onClick={handlePrevious}>Previous</button>
                 <button onClick={handleNext}>Next</button>
             </div>
-        </div>
+        </gallery>
     )
 }
 
