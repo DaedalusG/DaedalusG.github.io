@@ -39,12 +39,14 @@ const About = () => {
   const studentImages = data.student.edges;
   const mechanicImages = data.mechanic.edges;
 
+  const test = ["holla holla holla", "smeh", "bleh ble bleh", "smuck"]
+
   return (
     <Layout>
       <SEO title="About" />
       <college>
         <h3>College</h3>
-        <Gallery images={studentImages} />
+        <Gallery images={studentImages} text={test} />
         <p>
           I've always been a bit of a day dreamer, and the last time I took a
           Meiers Briggs test, I scored INFP. I grew up playing imagination games,
