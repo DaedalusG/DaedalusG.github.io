@@ -39,7 +39,7 @@ const About = () => {
   const studentImages = data.student.edges;
   const mechanicImages = data.mechanic.edges;
 
-  const test = ["holla holla holla", "smeh", "bleh ble bleh", "smuck"]
+  const test = ["test test test", "nah nah nah"]
 
   return (
     <Layout>
@@ -65,7 +65,7 @@ const About = () => {
       </college>
       <automotive>
         <h3>Automotive</h3>
-        <Gallery images={mechanicImages} />
+        <Gallery images={mechanicImages} text={test} />
         <p>
           Like I said, I'm a bit of a romantic, and after working my way through
           college in resteraunts and grocery stores, I decided I wanted to take

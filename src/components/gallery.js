@@ -7,9 +7,10 @@ const Gallery = ({ images, text }) => {
     const [index, setIndex] = useState(0);
     const length = images.length - 1;
     console.log(length)
+    console.log(text)
 
     let image = images[index].node
-    let currentText = text[index]
+    let indexText = text[index]
 
     const handleNext = () => {
         (index === length) ? setIndex(0) : setIndex(index + 1)
@@ -19,7 +20,7 @@ const Gallery = ({ images, text }) => {
     }
 
     return (
-        <gallery>
+        <div>
             <div className="gallery-images">
                 <Img fluid={image.childImageSharp.fluid} />
             </div>
@@ -27,8 +28,8 @@ const Gallery = ({ images, text }) => {
                 <button onClick={handlePrevious}>{"<--"}</button>
                 <button onClick={handleNext}>{"-->"}</button>
             </div>
-            <p>{currentText}</p>
-        </gallery>
+            <p>{indexText}</p>
+        </div>
     )
 }
 
