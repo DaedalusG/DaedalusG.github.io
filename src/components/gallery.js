@@ -6,8 +6,6 @@ import './styles/gallery.css'
 const Gallery = ({ images, text }) => {
     const [index, setIndex] = useState(0);
     const length = images.length - 1;
-    console.log(length)
-    console.log(text)
 
     let image = images[index].node
     let indexText = text[index]
