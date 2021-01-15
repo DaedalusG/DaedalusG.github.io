@@ -9,6 +9,18 @@ const About = () => {
 
   const data = useStaticQuery(graphql`
       {
+        student: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "student"}}) {
+          edges {
+            node {
+              base
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
         mechanic: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "mechanic"}}) {
           edges {
             node {
@@ -21,7 +33,7 @@ const About = () => {
             }
           }
         }
-        student: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "student"}}) {
+        developer: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "developer"}}) {
           edges {
             node {
               base
@@ -38,6 +50,7 @@ const About = () => {
 
   const studentImages = data.student.edges;
   const mechanicImages = data.mechanic.edges;
+  const developerImages = data.developer.edges;
 
   const studentText = [
     `I've always been a bit of a day dreamer, and the last time I took a
@@ -87,6 +100,7 @@ const About = () => {
       </div>
       <div>
         <h3>Developer</h3>
+        <Gallery images={developerImages} text={test} />
         <p>
           When 2020 hit I was furloughed from the shop I was working at until our
           customer count got back to normal, but I was already thinking about bootcamps.
