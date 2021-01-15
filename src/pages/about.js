@@ -107,8 +107,6 @@ const About = () => {
           a computer recycling nonprofit in Portland.`
   ]
 
-  const test = ["test", "smest", "blesst", "pressesst", "blep"]
-
   return (
     <Layout>
       <SEO title="About" />
