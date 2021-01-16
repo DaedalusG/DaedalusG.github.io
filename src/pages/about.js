@@ -70,7 +70,7 @@ const About = () => {
     the internet. For the record please don't ask me about Heidegger. Phenomenology wasn't my thing.`,
   /*e*/  `I got my first car in my last year of college. It was a busted 1980 Toyota Corona,
   which is like a little japanese muscle car. It was always breaking down, and I was always broke, so
-  I rode my bike a lot and tried to fix it myself as best I could. This a picture of its
+  I rode my bike a lot and tried to fix it myself as best I could. This a picture of it's
   funky old carburetor, which I replaced with the help of a friend. `
   ]
   const mechanicText = [

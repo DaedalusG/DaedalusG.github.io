@@ -15,11 +15,16 @@ button {
 .gallery-images {
     max-width: 30rem;
     min-width: 15rem;
+    border: thick double black;
 }
 
 .buttons-c {
     display:flex;
     justify-content: center;
+}
+
+.story-text {
+    max-width: 35rem;
 }
 
 /* Small devices (landscape phones, 480px and up) */
@@ -28,6 +33,11 @@ button {
 @media (min-width: 768px) {
     .gallery-images {
         min-width: 30rem;
+        /* max-height: 15rem; */
+    }
+
+    .gallery-c {
+        margin: 0rem 2rem;
     }
 }
 /* Large devices (desktops, 980px and up) */

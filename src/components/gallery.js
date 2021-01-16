@@ -26,7 +26,7 @@ const Gallery = ({ images, text }) => {
                 <button onClick={handlePrevious}>{"<--"}</button>
                 <button onClick={handleNext}>{"-->"}</button>
             </div>
-            <p>{indexText}</p>
+            <p className="story-text">{indexText}</p>
         </div>
     )
 }
