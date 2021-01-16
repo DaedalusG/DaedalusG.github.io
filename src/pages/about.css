@@ -1,0 +1,10 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro > p {
+    color: darkgreen;
+    text-align: center;
+}

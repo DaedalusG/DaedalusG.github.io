@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Gallery from "../components/gallery.js"
 
+import "./about.css"
+
 const About = () => {
 
   const data = useStaticQuery(graphql`
@@ -77,6 +79,14 @@ const About = () => {
   return (
     <Layout>
       <SEO title="About" />
+      <div className="intro">
+        <h1>Learn About Me!</h1>
+        <p>
+          Here I've chosen some pictures from what I will consider my adult life,
+          and I've provided a little context for each so you can get to know me
+          a little better.
+        </p>
+      </div>
       <div>
         <h3>College</h3>
         <Gallery images={studentImages} text={studentText} />
