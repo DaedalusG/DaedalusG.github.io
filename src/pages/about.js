@@ -114,7 +114,13 @@ const About = () => {
       <div>
         <div className="intro">
           <h3>Mechanic</h3>
-          <p></p>
+          <p>
+            When I graduated college I was worn out with abstractions and academia.
+            I was feeling disillusioned and wanted to learn some practical skills.
+            I had been learning to fix my car with a little help from a mechanic friend.
+            Not sure how to use my philosophy degree, when my friend offered
+            me a job at his little two bay shop, I jumped at the opportunity.
+          </p>
         </div>
         <Gallery images={mechanicImages} text={mechanicText} />
       </div>
