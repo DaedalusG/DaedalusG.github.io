@@ -58,10 +58,20 @@ const About = () => {
   /*a*/  `I was late to driving and didn't actually get a lisence until midway through college,
     I could always be found biking between work and classes, even in snow! When I graduated,
     as a treat, a friend and I did a a bike tour from Portland to SF via HWY 101.`,
-  /*b*/  `b`,
-  /*c*/  `c`,
-  /*d*/  `d`,
-  /*e*/  `e`
+  /*b*/  `I loved taking notes in big journals with unruled paper, often with mixed
+    subjects. This one was probably from an entry level computer science class, or maybe
+    from Minds & Machines, a philosophy class on cognition through the lense of systems and modeling attempts.
+     These notes are on turing universal machines.`,
+  /*c*/  `Here we have one of my little studying nooks, I worked in the service  
+  industry through college, and moved a lot. It was chaotic but fun. 
+  I got through it all with coffee. This is of Vector Calculus course work.`,
+  /*d*/  `Yes all my pictures are just books and notes. All I did in college was
+   work and study. Any other pictures from this time wouldn't be appropriate for
+    the internet. For the record please don't ask me about Heidegger. Phenomenology wasn't my thing.`,
+  /*e*/  `I got my first car in my last year of college. It was a busted 1980 Toyota Corona,
+  which is like a little japanese muscle car. It was always breaking down, and I was always broke, so
+  I rode my bike a lot and tried to fix it myself as best I could. This a picture of its
+  funky old carburetor, which I replaced with the help of a friend. `
   ]
   const mechanicText = [
   /*a*/  `a`,
