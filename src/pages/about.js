@@ -74,18 +74,44 @@ const About = () => {
   funky old carburetor, which I replaced with the help of a friend. `
   ]
   const mechanicText = [
-  /*a*/  `a`,
-  /*b*/  `b`,
-  /*c*/  `c`,
-  /*d*/  `d`,
-  /*e*/  `e`
+  /*a*/  `Here I am laboring inside a big old Ford. Learning to be a mechanic
+  was a trial by fire for me. With no formal training, and only a years driving 
+  experience, I was thrust into a shop environment where I had to do a little of
+   everything.`,
+  /*b*/  `I was so excited and proud when I got the chance to do big jobs. At my first shop,
+  we worked on everything, it was a great way to learn, and always kept me on my toes.`,
+  /*c*/  `Alright so again, its a lot of pictures of me and cars. Again, I was always working!
+  I thought being a mechanic was going to afford me a better lifestyle than service industry work,
+  but, while I was learning I worked for cheap, and actually held a restaurant job in the evening.`,
+  /*d*/  `There absolutely was a lot of gratification in fixing cars. 
+  It was hard work, but, at the end of the day I knew exactly how I was helping people. 
+  That was great.`,
+  /*e*/  `Eventually, I realized that I didn't want to fix cars long term.
+  I was never going to get out from under my student loans on a mechanics income,
+  and I was starting to miss those abstractions from college. I had always had an
+  interest in computers, and decided maybe it was time to get serious.`
   ]
   const developerText = [
-  /*a*/  `a`,
-  /*b*/  `b`,
-  /*c*/  `c`,
-  /*d*/  `d`,
-  /*e*/  `e`
+  /*a*/  `I went to AppAcademy's fullstack web development bootcamp.
+  There I learned javascript, python, SQL, and react. Plus a bunch of other technologies.
+  It was a great experience, and I made a ton of friends along the way. 
+  We pair programmed every day, and studied hard for weekly exams.`,
+  /*b*/  `My dog Bajor was happy I was always home over the six month bootcamp, but,
+  he quickly learned that it wasn't going to be playtime all the time, and he often
+  gave me these looks of dissapointment. I DO IT ALL FOR YOU BAJOR!`,
+  /*c*/  `Here you can see me doing a proof of concept for my Lifebox app. I had wanted,
+  to do my own Conway's Game of Life since I learned about it in college. Its totally
+  the kind of thing that gets me excited about computers. I hope my future has more
+  projects like this in store.`,
+  /*d*/  `Remote graduation! I really love the people I've met in the technology community. I learn
+  a lot through conversation, and pair programming through bootcamp was a ton of fun.
+  I've always thought the idea of open source was cool, and I'm excited to
+  meet new people, and continue learned about the world of web technologies. Hit me up!`,
+  /*e*/  `The biggest shocker for me learning to code via bootcamp, was just how rough
+  sitting all day could be. When I started I had a little wooden desk, and a little
+  wooden chair. Coding all day was a totally different kind of tired than I was used to.
+  A standing desk and another screen have been HUGE upgrades. When I make my first money
+  in tech, I'll reward myself with a chair.`
   ]
 
   return (
@@ -127,7 +153,11 @@ const About = () => {
       <div>
         <div className="intro">
           <h3>Developer</h3>
-          <p></p>
+          <p>
+            When covid-19 hit the shop I was working at furloughed me, I was broke
+            and had a puppy to take care of, but I'd put away enough to get by for awhile.
+            I sold some of my project cars and signed up for a coding bootcamp!
+          </p>
         </div>
         <Gallery images={developerImages} text={developerText} />
       </div>
