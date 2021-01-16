@@ -18,7 +18,7 @@ const Gallery = ({ images, text }) => {
     }
 
     return (
-        <div>
+        <div className="gallery-c">
             <div className="gallery-images">
                 <Img fluid={image.childImageSharp.fluid} />
             </div>
