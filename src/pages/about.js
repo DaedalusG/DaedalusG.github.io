@@ -125,7 +125,7 @@ const About = () => {
           a little better.
         </p>
       </div>
-      <div>
+      <div className="story-c">
         <div className="intro">
           <h3>Student</h3>
           <p>
@@ -137,7 +137,7 @@ const About = () => {
         </div>
         <Gallery images={studentImages} text={studentText} />
       </div>
-      <div>
+      <div className="story-c">
         <div className="intro">
           <h3>Mechanic</h3>
           <p>
@@ -150,7 +150,7 @@ const About = () => {
         </div>
         <Gallery images={mechanicImages} text={mechanicText} />
       </div>
-      <div>
+      <div className="story-c">
         <div className="intro">
           <h3>Developer</h3>
           <p>

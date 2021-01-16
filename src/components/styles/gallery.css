@@ -21,3 +21,18 @@ button {
     display:flex;
     justify-content: center;
 }
+
+/* Small devices (landscape phones, 480px and up) */
+/* @media (min-width: 480px) { ... } */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .gallery-images {
+        min-width: 30rem;
+    }
+}
+/* Large devices (desktops, 980px and up) */
+/* @media (min-width: 980px) { ... } */
+/* Extra large devices (large desktops, 1220px and up) */
+/* @media (min-width: 1220px) { ... } */
+/* Extra extra large devices (large desktops, 1440px and up) */
+/* @media (min-width: 1440px) { ... } */
