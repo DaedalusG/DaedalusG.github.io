@@ -53,7 +53,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Warren's Portfolio Splash" />
       <greeting>
         <h1 className="mobile-welcome">Welcome to my portfolio!</h1>
         <div className="headshot-c">
