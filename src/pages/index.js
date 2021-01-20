@@ -53,7 +53,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Warren's Portfolio" />
+      <SEO title="Warren's Portfolio" image={`../../image/headshot.jpg`} />
       <greeting>
         <h1 className="mobile-welcome">Welcome to my portfolio!</h1>
         <div className="headshot-c">
