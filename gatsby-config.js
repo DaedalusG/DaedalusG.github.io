@@ -3,6 +3,7 @@ module.exports = {
     title: `Warren's Portfolio`,
     description: `My little section of the web, built with gatsby`,
     author: `DaedalusG`,
+    image: `/src/components/images/headshot.jpg`,
   },
   plugins: [
     {
