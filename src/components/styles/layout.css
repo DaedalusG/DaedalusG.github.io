@@ -643,3 +643,12 @@ pre tt:after {
   max-width: 80%;
   padding: 0 1.0875rem 1.45rem;
 }
+
+.emailButton-c {
+  width: 2.0rem;
+  height: 2.0rem;
+  margin: 0.5rem;
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}

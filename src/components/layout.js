@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <div className='layout-container'>
         <main>{children}</main>
       </div>
-      <div>
+      <div className="emailButton-c">
         <EmailButton />
       </div>
     </>
