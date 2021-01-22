@@ -22,7 +22,6 @@ const Gallery = ({ images, text }) => {
             <div className="gallery-images">
                 <Img fluid={image.childImageSharp.fluid} />
             </div>
-            <h1>{index}</h1>
             <div className="buttons-c">
                 <button onClick={handlePrevious}>{"<--"}</button>
                 <button onClick={handleNext}>{"-->"}</button>
