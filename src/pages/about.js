@@ -11,7 +11,9 @@ const About = () => {
 
   const data = useStaticQuery(graphql`
       {
-        student: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "student"}}) {
+        student: allFile(
+          filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "student"}},
+          sort: {fields: [base], order: ASC}) {
           edges {
             node {
               base
@@ -23,7 +25,8 @@ const About = () => {
             }
           }
         }
-        mechanic: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "mechanic"}}) {
+        mechanic: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "mechanic"}},
+        sort: {fields: [base], order: ASC}) {
           edges {
             node {
               base
@@ -35,7 +38,8 @@ const About = () => {
             }
           }
         }
-        developer: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "developer"}}) {
+        developer: allFile(filter: {extension: {regex: "/(jpg)|(png)|(jpeg)/"}, relativeDirectory: {eq: "developer"}},
+        sort: {fields: [base], order: ASC}) {
           edges {
             node {
               base
