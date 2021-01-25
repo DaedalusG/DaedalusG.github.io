@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import Img from "gatsby-image"
 
+import ArrowButton from "./arrowButton.js"
+
 import './styles/gallery.css'
 
 const Gallery = ({ images, text }) => {
@@ -23,7 +25,9 @@ const Gallery = ({ images, text }) => {
                 <Img fluid={image.childImageSharp.fluid} />
             </div>
             <div className="buttons-c">
-                <button onClick={handlePrevious}>{"<--"}</button>
+                <button onClick={handlePrevious}>
+                    <ArrowButton direction="left" />
+                </button>
                 <button onClick={handleNext}>{"-->"}</button>
             </div>
             <p className="story-text">{indexText}</p>
