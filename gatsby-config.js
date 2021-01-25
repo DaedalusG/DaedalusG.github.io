@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/puzzle-16x16.png`,
+        icon: `src/images/puzzle-32x32.png`,
       },
     },
     `gatsby-plugin-offline`,
