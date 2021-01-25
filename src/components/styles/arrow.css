@@ -1,12 +1,19 @@
 .left {
     width: 2.0rem;
     height: 2.0rem;
-    margin: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 25%;
 }
 
 .right {
     width: 2.0rem;
     height: 2.0rem;
-    margin: 0.5rem;
+    margin: 0.25rem;
     transform: rotate(0.5turn);
+    border-radius: 25%;
+}
+
+button:hover {
+    background-color: lightgreen;
+    border-radius: 100%;
 }
