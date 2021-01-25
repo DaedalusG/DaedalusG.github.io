@@ -3,3 +3,10 @@
     height: 2.0rem;
     margin: 0.5rem;
 }
+
+.right {
+    width: 2.0rem;
+    height: 2.0rem;
+    margin: 0.5rem;
+    transform: rotate(0.5turn);
+}

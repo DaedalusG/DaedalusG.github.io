@@ -28,7 +28,9 @@ const Gallery = ({ images, text }) => {
                 <button onClick={handlePrevious}>
                     <ArrowButton direction="left" />
                 </button>
-                <button onClick={handleNext}>{"-->"}</button>
+                <button onClick={handleNext}>
+                    <ArrowButton direction="right" />
+                </button>
             </div>
             <p className="story-text">{indexText}</p>
         </div>
