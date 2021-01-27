@@ -54,7 +54,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Warren's Portfolio" image={`../../image/headshot.jpg`} />
-      <greeting>
+      <div className="greeting">
         <h1 className="mobile-welcome">Welcome to my portfolio!</h1>
         <div className="headshot-c">
           <Headshot />
@@ -65,7 +65,7 @@ const IndexPage = () => {
           <p className="desktop-info">Here you can access links to my projects, and learn a little bit about my interests and background. This site was developed with Gatsby</p>
           <p>Get in touch with me on <a href={"https://www.linkedin.com/in/warren-gifford-he-him-b1141a1b4/"}>LinkedIn</a>, or shoot me an <a href={"mailto:warrenbruceg@gmail.com"}>email</a>.</p>
         </div>
-      </greeting>
+      </div>
       <h2 className='mobile-tech-direction'>Behold my technologies</h2>
       <div className="technologies">
         <div className="desktop-tech-info">
