@@ -22,7 +22,7 @@
 /* Large devices (desktops, 980px and up) */
 @media (min-width: 980px) {
     .story-c {
-        margin: 5rem 0rem;
+        margin: 2rem 0rem;
     }
 }
 /* Extra large devices (large desktops, 1220px and up) */
