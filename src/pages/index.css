@@ -19,7 +19,6 @@ a {
     max-width: 15rem;
     border: thick double black;
     margin-bottom: 0.5rem;
-    margin-right: 1.5rem;
 }
 
 .desktop-welcome {
@@ -86,25 +85,29 @@ a {
         /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
         background-size: cover; */
     }
-
+    
+    .headshot-c {
+        margin-right: 1.5rem;
+    }
+    
     .greeting-info {
         display: flex;
         flex-direction: column;
         width: 70%;
     }
-
+    
     .mobile-welcome {
         display: none;
     }
-
+    
     .desktop-welcome {
         display: inherit;
     }
-
+    
     .mobile-tech-info {
         display: none;
     }
-
+    
     
     .desktop-info {
         display: inherit;
@@ -119,7 +122,7 @@ a {
         margin-bottom: 2.5rem;
         height: 18rem;
     }
-
+    
     .desktop-tech-info {
         display: flex;
         flex-direction: column;
@@ -133,19 +136,19 @@ a {
         width: 20rem;
         height: 5rem;
     }
-
+    
     .logo-c {
         width: 2.5rem;
         margin: .5rem;
     }
-
+    
     .desktop-tech-direction {
         display: inherit;
         /* text-align: center; */
         margin-bottom: 1.5rem;
         color: darkgreen;
     }
-
+    
     .mobile-tech-direction {
         display: none;
     }
