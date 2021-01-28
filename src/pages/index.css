@@ -19,6 +19,7 @@ a {
     max-width: 15rem;
     border: thick double black;
     margin-bottom: 0.5rem;
+    margin-right: 1.5rem;
 }
 
 .desktop-welcome {
@@ -81,7 +82,7 @@ a {
         display: flex;
         flex-flow: row;
         text-align:inherit;
-        margin-bottom: 2.5rem;
+        margin-bottom: 0.5rem;
         /* background-image: url('https://lh3.googleusercontent.com/NTCTXvONVLnriwhSHgltgfxux3E-MD-8opJb23OXscknB-hwaRLQiiGl3Nnxe5S0Rye_C3Zq2CZFE8D8zJFOhBOQLRMX2kUtTHDz5vuV1npiQ7w_W4lYzFsbJmyOrGGOhU4HL1rgyg=w2400');
         background-size: cover; */
     }
