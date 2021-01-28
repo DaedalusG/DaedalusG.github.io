@@ -89,12 +89,13 @@ projectcard:hover .project-description {
   }
 
   .project-description {
+    display: flex;
+    text-align: left;
     margin-bottom: 2rem;
   }
 
-  .project-description {
-    display: flex;
-    text-align: left;
+  .image-container {
+    margin-bottom: 0rem;
   }
 
   .mobile-project-title {
