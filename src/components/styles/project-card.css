@@ -41,6 +41,7 @@ projectcard:hover .project-description {
 .image-container {
   width: 100%;
   box-shadow: 0rem 0.55rem 1rem black;
+  margin-bottom: 0.5rem;
 }
 
 .mobile-techused {
@@ -96,6 +97,7 @@ projectcard:hover .project-description {
 
   .image-container {
     margin-bottom: 0rem;
+    box-shadow: 0rem 0.55rem 1rem black;
   }
 
   .mobile-project-title {
