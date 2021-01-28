@@ -40,7 +40,7 @@ projectcard:hover .project-description {
 
 .image-container {
   width: 100%;
-  border: thick double black;
+  box-shadow: 0rem 0.55rem 1rem black;
 }
 
 .mobile-techused {
